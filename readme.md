@@ -2,7 +2,7 @@ RadioThermal 470KHz Induction Soldering Station - Open Source Hardware
 ========================
 
 This repository contains the designs and resources to build a high-perfomance induction soldering iron at a relatively low cost. [Check out radiothermal.com for more information.](https://radiothermal.com/products.html)
-
+### [Join our mailing list to get updates on this project](https://radiothermal.com/mailing.html0)
 ![](Media/470-Full-min.jpg)
 
 The 470KHz soldering system is made up of four major components: the power supply, the handpiece, the cable, and the workstand. Follow the links to see the assembly instructions and files for each component.
