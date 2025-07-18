@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 792 612">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4 {
+        fill: #231f20;
+      }
+
+      .st1 {
+        font-size: 7.9px;
+      }
+
+      .st1, .st3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st2 {
+        font-family: ArialMT, Arial;
+        font-size: 10px;
+      }
+
+      .st5 {
+        fill: #594a42;
+      }
+
+      .st5, .st6 {
+        opacity: .6;
+      }
+
+      .st7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st8 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st9 {
+        stroke-width: .7px;
+      }
+
+      .st9, .st10, .st11 {
+        stroke: #7d7d7d;
+      }
+
+      .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23 {
+        stroke-miterlimit: 10;
+      }
+
+      .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st21 {
+        fill: none;
+      }
+
+      .st10 {
+        stroke-width: .7px;
+      }
+
+      .st11 {
+        stroke-width: .6px;
+      }
+
+      .st12 {
+        stroke-width: .7px;
+      }
+
+      .st12, .st13, .st14, .st15, .st21, .st22 {
+        stroke: #231f20;
+      }
+
+      .st24 {
+        fill: #7d7d7d;
+      }
+
+      .st13, .st17, .st18, .st19, .st20, .st23 {
+        stroke-width: 1px;
+      }
+
+      .st14 {
+        stroke-width: .9px;
+      }
+
+      .st15, .st16 {
+        stroke-width: 1.3px;
+      }
+
+      .st3 {
+        font-size: 10.5px;
+      }
+
+      .st6 {
+        fill: #be1e2d;
+      }
+
+      .st16 {
+        fill: url(#linear-gradient5);
+      }
+
+      .st16, .st17, .st18, .st19, .st20, .st23 {
+        stroke: #6b3a27;
+      }
+
+      .st17 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st18 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st19 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st20 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st21 {
+        stroke-width: 2px;
+      }
+
+      .st25 {
+        fill: #00aeef;
+        opacity: .3;
+      }
+
+      .st4 {
+        font-size: 24px;
+      }
+
+      .st4, .st26, .st27 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st22 {
+        stroke-width: 1px;
+      }
+
+      .st22, .st26 {
+        fill: #eff9fe;
+      }
+
+      .st23 {
+        fill: url(#linear-gradient);
+      }
+
+      .st26, .st27 {
+        font-size: 13px;
+      }
+
+      .st27 {
+        fill: #fff;
+      }
+
+      .st28 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="313.4" y1="433.4" x2="235.1" y2="536.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d38a65"/>
+      <stop offset="0" stop-color="#d48b67"/>
+      <stop offset=".2" stop-color="#e5ab92"/>
+      <stop offset=".3" stop-color="#f1c2b2"/>
+      <stop offset=".4" stop-color="#f9d0c5"/>
+      <stop offset=".5" stop-color="#fcd5cc"/>
+      <stop offset=".6" stop-color="#f9cfc4"/>
+      <stop offset=".7" stop-color="#f1c0b0"/>
+      <stop offset=".9" stop-color="#e3a88f"/>
+      <stop offset="1" stop-color="#d38a65"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="692.5" y1="433.4" x2="614.1" y2="536.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient2" x1="314" y1="127" x2="235.6" y2="230" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient3" x1="313.4" y1="276.8" x2="235.1" y2="379.9" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath">
+      <rect class="st13" x="270.9" y="322.2" width="40" height="28.6"/>
+    </clipPath>
+    <linearGradient id="linear-gradient4" x1="693.4" y1="133.8" x2="615.1" y2="236.8" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-1">
+      <path class="st13" d="M605.2,199.2v4.3h25.7v4.3h20v-8.6h-45.7ZM630.9,179.2v4.3h-25.7v4.3h45.7v-8.6h-20Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient5" x1="627.4" y1="249.4" x2="523.7" y2="385.8" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-2">
+      <path class="st15" d="M510.6,335.9v5.7h34v5.7h26.5v-11.3h-60.5ZM544.7,309.5v5.7h-34v5.7h60.5v-11.3h-26.5Z"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2">
+    <g>
+      <rect class="st22" x="51.7" y="104.6" width="319.5" height="140.7"/>
+      <rect class="st0" x="52.2" y="104.9" width="77.3" height="22.2"/>
+      <text class="st27" transform="translate(68.7 120.3)"><tspan x="0" y="0">STEP 1</tspan></text>
+    </g>
+    <g>
+      <rect class="st22" x="51.7" y="260.4" width="319.5" height="140.7"/>
+      <rect class="st0" x="52.2" y="260.5" width="77.3" height="22.2"/>
+      <text class="st27" transform="translate(68.7 275.9)"><tspan x="0" y="0">STEP 2</tspan></text>
+    </g>
+    <g>
+      <rect class="st22" x="51.7" y="416.1" width="319.5" height="140.7"/>
+      <rect class="st0" x="52.2" y="417.1" width="77.3" height="22.2"/>
+      <text class="st26" transform="translate(68.7 432.5)"><tspan x="0" y="0">STEP 3</tspan></text>
+    </g>
+    <g>
+      <rect class="st22" x="396" y="104.6" width="344.3" height="296.6"/>
+      <rect class="st0" x="396.5" y="104.9" width="77.3" height="22.2"/>
+      <text class="st27" transform="translate(413 120.3)"><tspan x="0" y="0">STEP 4</tspan></text>
+    </g>
+    <g>
+      <rect class="st22" x="396" y="416.1" width="344.3" height="140.7"/>
+      <rect class="st0" x="396.5" y="417.1" width="77.3" height="22.2"/>
+      <text class="st27" transform="translate(413 432.5)"><tspan x="0" y="0">STEP 5</tspan></text>
+    </g>
+  </g>
+  <g id="Layer_1">
+    <polygon class="st23" points="270.9 507.4 270.9 478.8 310.9 478.8 310.9 467.4 225.2 467.4 225.2 518.8 310.9 518.8 310.9 507.4 270.9 507.4"/>
+    <g>
+      <polygon class="st17" points="650 507.4 650 478.8 689.9 478.8 689.9 467.4 604.3 467.4 604.3 518.8 689.9 518.8 689.9 507.4 650 507.4"/>
+      <path class="st5" d="M604.7,498.9v4.4h25.1v4.4h19.5v-8.8h-44.7ZM629.8,478.3v4.4h-25.1v4.4h44.7v-8.8h-19.5Z"/>
+    </g>
+    <text class="st2" transform="translate(83.6 174)"><tspan x="0" y="0">Cut out a 15mm x 9mm </tspan><tspan x="0" y="12">rectangle of double-sided </tspan><tspan x="0" y="24">copper clad FR4 board.</tspan></text>
+    <text class="st4" transform="translate(187 65.9)"><tspan x="0" y="0">HANDPIECE BOARD PREPARATION</tspan></text>
+    <text class="st2" transform="translate(83.6 326.6)"><tspan x="0" y="0">Mark a 7mm x 5mm </tspan><tspan x="0" y="12">rectangle on center on </tspan><tspan x="0" y="24">one end of the board.</tspan></text>
+    <text class="st2" transform="translate(84.5 478.5)"><tspan x="0" y="0">Remove marked </tspan><tspan x="0" y="12">material from STEP 2. </tspan><tspan x="0" y="24">The remaining material </tspan><tspan x="0" y="36">should look like a “C”.</tspan></text>
+    <text class="st2" transform="translate(429.9 159.9)"><tspan x="0" y="0">On the top side of the board, </tspan><tspan x="0" y="12">mark a 2mm wide section </tspan><tspan x="0" y="24">down the center of the uncut </tspan><tspan x="0" y="36">section with a 0.75mm gap of </tspan><tspan x="0" y="48">each side. Near the notched </tspan><tspan x="0" y="60">section, increase the width of </tspan><tspan x="0" y="72">the gap to 1.5mm.</tspan></text>
+    <text class="st2" transform="translate(430.7 478.5)"><tspan x="0" y="0">Scape off the copper in the </tspan><tspan x="0" y="12">marked section from STEP </tspan><tspan x="0" y="24">4. The top side of the board </tspan><tspan x="0" y="36">should now look like this.</tspan></text>
+    <g>
+      <rect class="st18" x="225.8" y="160.9" width="85.7" height="51.4"/>
+      <g>
+        <g>
+          <line class="st11" x1="225.8" y1="150.6" x2="311.4" y2="150.6"/>
+          <polygon class="st24" points="227.7 152.9 228.1 152.5 226 150.6 228.1 148.7 227.7 148.3 225.2 150.6 227.7 152.9"/>
+          <polygon class="st24" points="309.5 152.9 309.2 152.5 311.2 150.6 309.2 148.7 309.5 148.3 312 150.6 309.5 152.9"/>
+        </g>
+        <line class="st11" x1="225.6" y1="145.3" x2="225.6" y2="155.9"/>
+        <line class="st11" x1="311.7" y1="155.9" x2="311.7" y2="145.3"/>
+      </g>
+      <g>
+        <g>
+          <line class="st11" x1="321.3" y1="161.5" x2="321.3" y2="212.2"/>
+          <polygon class="st24" points="319 163.4 319.4 163.7 321.3 161.7 323.2 163.7 323.6 163.4 321.3 160.9 319 163.4"/>
+          <polygon class="st24" points="319 210.4 319.4 210 321.3 212 323.2 210 323.6 210.4 321.3 212.8 319 210.4"/>
+        </g>
+        <line class="st11" x1="326.6" y1="161.2" x2="316" y2="161.2"/>
+        <line class="st11" x1="316" y1="212.5" x2="326.6" y2="212.5"/>
+      </g>
+      <text class="st1" transform="translate(258 146.7)"><tspan x="0" y="0">15mm</tspan></text>
+      <text class="st1" transform="translate(324.8 189.5)"><tspan x="0" y="0">9mm</tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect class="st20" x="225.2" y="310.8" width="85.7" height="51.4"/>
+        <rect class="st25" x="270.9" y="322.2" width="40" height="28.6"/>
+        <g>
+          <g class="st28">
+            <g>
+              <line class="st12" x1="241.5" y1="333.5" x2="293.9" y2="385.9"/>
+              <line class="st12" x1="244.2" y1="330.8" x2="296.6" y2="383.1"/>
+              <line class="st12" x1="247" y1="328" x2="299.3" y2="380.4"/>
+              <line class="st12" x1="249.7" y1="325.3" x2="302.1" y2="377.7"/>
+              <line class="st12" x1="252.4" y1="322.6" x2="304.8" y2="375"/>
+              <line class="st12" x1="255.2" y1="319.9" x2="307.5" y2="372.2"/>
+              <line class="st12" x1="257.9" y1="317.1" x2="310.2" y2="369.5"/>
+              <line class="st12" x1="260.6" y1="314.4" x2="313" y2="366.8"/>
+              <line class="st12" x1="263.3" y1="311.7" x2="315.7" y2="364"/>
+              <line class="st12" x1="266.1" y1="308.9" x2="318.4" y2="361.3"/>
+              <line class="st12" x1="268.8" y1="306.2" x2="321.2" y2="358.6"/>
+              <line class="st12" x1="271.5" y1="303.5" x2="323.9" y2="355.9"/>
+              <line class="st12" x1="274.3" y1="300.8" x2="326.6" y2="353.1"/>
+              <line class="st12" x1="277" y1="298" x2="329.3" y2="350.4"/>
+              <line class="st12" x1="279.7" y1="295.3" x2="332.1" y2="347.7"/>
+              <line class="st12" x1="282.4" y1="292.6" x2="334.8" y2="344.9"/>
+              <line class="st12" x1="285.2" y1="289.8" x2="337.5" y2="342.2"/>
+              <line class="st12" x1="287.9" y1="287.1" x2="340.3" y2="339.5"/>
+            </g>
+          </g>
+          <rect class="st13" x="270.9" y="322.2" width="40" height="28.6"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="st11" x1="270.9" y1="300.8" x2="310.5" y2="300.8"/>
+          <polygon class="st24" points="272.8 303.1 273.2 302.7 271.1 300.8 273.2 298.9 272.8 298.5 270.3 300.8 272.8 303.1"/>
+          <polygon class="st24" points="308.6 303.1 308.2 302.7 310.3 300.8 308.2 298.9 308.6 298.5 311.1 300.8 308.6 303.1"/>
+        </g>
+        <line class="st11" x1="270.7" y1="295.5" x2="270.7" y2="319"/>
+        <line class="st11" x1="310.8" y1="306.1" x2="310.8" y2="295.5"/>
+      </g>
+      <text class="st1" transform="translate(283.3 297)"><tspan x="0" y="0">7mm</tspan></text>
+      <g>
+        <line class="st11" x1="320.6" y1="323.2" x2="320.6" y2="349.4"/>
+        <polygon class="st24" points="318.3 325.1 318.7 325.5 320.6 323.5 322.5 325.5 322.9 325.1 320.6 322.6 318.3 325.1"/>
+        <polygon class="st24" points="318.3 347.5 318.7 347.1 320.6 349.1 322.5 347.1 322.9 347.5 320.6 350 318.3 347.5"/>
+      </g>
+      <g>
+        <g>
+          <line class="st11" x1="320.6" y1="311.3" x2="320.6" y2="321.2"/>
+          <polygon class="st24" points="318.3 313.2 318.7 313.6 320.6 311.6 322.5 313.6 322.9 313.2 320.6 310.7 318.3 313.2"/>
+          <polygon class="st24" points="318.3 319.3 318.7 318.9 320.6 321 322.5 318.9 322.9 319.3 320.6 321.8 318.3 319.3"/>
+        </g>
+        <line class="st11" x1="325.9" y1="311.1" x2="315.3" y2="311.1"/>
+        <line class="st11" x1="325.9" y1="321.9" x2="315.3" y2="321.9"/>
+      </g>
+      <g>
+        <g>
+          <line class="st11" x1="320.6" y1="351.7" x2="320.6" y2="361.6"/>
+          <polygon class="st24" points="318.3 353.6 318.7 354 320.6 351.9 322.5 354 322.9 353.6 320.6 351.1 318.3 353.6"/>
+          <polygon class="st24" points="318.3 359.7 318.7 359.3 320.6 361.3 322.5 359.3 322.9 359.7 320.6 362.2 318.3 359.7"/>
+        </g>
+        <line class="st11" x1="315.3" y1="362.4" x2="325.9" y2="362.4"/>
+        <line class="st11" x1="315.3" y1="350.9" x2="325.9" y2="350.9"/>
+      </g>
+      <text class="st1" transform="translate(328.7 338.3)"><tspan x="0" y="0">5mm</tspan></text>
+      <text class="st1" transform="translate(328.7 319)"><tspan x="0" y="0">2mm</tspan></text>
+      <text class="st1" transform="translate(328.7 358.9)"><tspan x="0" y="0">2mm</tspan></text>
+    </g>
+    <g>
+      <polygon class="st19" points="650.9 207.7 650.9 179.1 690.9 179.1 690.9 167.7 605.2 167.7 605.2 219.1 690.9 219.1 690.9 207.7 650.9 207.7"/>
+      <path class="st6" d="M605.2,199.2v4.3h25.7v4.3h20v-8.6h-45.7ZM630.9,179.2v4.3h-25.7v4.3h45.7v-8.6h-20Z"/>
+      <g>
+        <g class="st7">
+          <g>
+            <line class="st12" x1="579.7" y1="186.4" x2="632.1" y2="238.8"/>
+            <line class="st12" x1="582.4" y1="183.7" x2="634.8" y2="236.1"/>
+            <line class="st12" x1="585.2" y1="181" x2="637.5" y2="233.3"/>
+            <line class="st12" x1="587.9" y1="178.2" x2="640.3" y2="230.6"/>
+            <line class="st12" x1="590.6" y1="175.5" x2="643" y2="227.9"/>
+            <line class="st12" x1="593.4" y1="172.8" x2="645.7" y2="225.1"/>
+            <line class="st12" x1="596.1" y1="170" x2="648.5" y2="222.4"/>
+            <line class="st12" x1="598.8" y1="167.3" x2="651.2" y2="219.7"/>
+            <line class="st12" x1="601.5" y1="164.6" x2="653.9" y2="217"/>
+            <line class="st12" x1="604.3" y1="161.9" x2="656.6" y2="214.2"/>
+            <line class="st12" x1="607" y1="159.1" x2="659.4" y2="211.5"/>
+            <line class="st12" x1="609.7" y1="156.4" x2="662.1" y2="208.8"/>
+            <line class="st12" x1="612.5" y1="153.7" x2="664.8" y2="206"/>
+            <line class="st12" x1="615.2" y1="150.9" x2="667.6" y2="203.3"/>
+            <line class="st12" x1="617.9" y1="148.2" x2="670.3" y2="200.6"/>
+            <line class="st12" x1="620.6" y1="145.5" x2="673" y2="197.9"/>
+            <line class="st12" x1="623.4" y1="142.8" x2="675.7" y2="195.1"/>
+            <line class="st12" x1="626.1" y1="140" x2="678.5" y2="192.4"/>
+          </g>
+        </g>
+        <path class="st13" d="M605.2,199.2v4.3h25.7v4.3h20v-8.6h-45.7ZM630.9,179.2v4.3h-25.7v4.3h45.7v-8.6h-20Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polygon class="st16" points="571.1 347.3 571.1 309.5 624 309.5 624 294.3 510.6 294.3 510.6 362.4 624 362.4 624 347.3 571.1 347.3"/>
+        <path class="st6" d="M510.6,335.9v5.7h34v5.7h26.5v-11.3h-60.5ZM544.7,309.5v5.7h-34v5.7h60.5v-11.3h-26.5Z"/>
+        <g>
+          <g class="st8">
+            <g>
+              <line class="st14" x1="476.9" y1="319.1" x2="546.2" y2="388.4"/>
+              <line class="st14" x1="480.5" y1="315.5" x2="549.8" y2="384.8"/>
+              <line class="st14" x1="484.1" y1="311.9" x2="553.4" y2="381.2"/>
+              <line class="st14" x1="487.7" y1="308.3" x2="557" y2="377.6"/>
+              <line class="st14" x1="491.3" y1="304.6" x2="560.7" y2="374"/>
+              <line class="st14" x1="494.9" y1="301" x2="564.3" y2="370.4"/>
+              <line class="st14" x1="498.6" y1="297.4" x2="567.9" y2="366.7"/>
+              <line class="st14" x1="502.2" y1="293.8" x2="571.5" y2="363.1"/>
+              <line class="st14" x1="505.8" y1="290.2" x2="575.1" y2="359.5"/>
+              <line class="st14" x1="509.4" y1="286.6" x2="578.7" y2="355.9"/>
+              <line class="st14" x1="513" y1="283" x2="582.3" y2="352.3"/>
+              <line class="st14" x1="516.6" y1="279.4" x2="585.9" y2="348.7"/>
+              <line class="st14" x1="520.2" y1="275.8" x2="589.5" y2="345.1"/>
+              <line class="st14" x1="523.8" y1="272.1" x2="593.2" y2="341.5"/>
+              <line class="st14" x1="527.5" y1="268.5" x2="596.8" y2="337.8"/>
+              <line class="st14" x1="531.1" y1="264.9" x2="600.4" y2="334.2"/>
+              <line class="st14" x1="534.7" y1="261.3" x2="604" y2="330.6"/>
+              <line class="st14" x1="538.3" y1="257.7" x2="607.6" y2="327"/>
+            </g>
+          </g>
+          <path class="st15" d="M510.6,335.9v5.7h34v5.7h26.5v-11.3h-60.5ZM544.7,309.5v5.7h-34v5.7h60.5v-11.3h-26.5Z"/>
+        </g>
+      </g>
+      <g>
+        <line class="st10" x1="510.9" y1="281.2" x2="544.7" y2="281.2"/>
+        <polygon class="st24" points="513.4 284.2 513.9 283.7 511.2 281.2 513.9 278.7 513.4 278.1 510.1 281.2 513.4 284.2"/>
+        <polygon class="st24" points="542.2 284.2 541.7 283.7 544.4 281.2 541.7 278.7 542.2 278.1 545.5 281.2 542.2 284.2"/>
+      </g>
+      <line class="st10" x1="510.5" y1="274.1" x2="510.5" y2="288.1"/>
+      <line class="st10" x1="545.1" y1="305.4" x2="545.1" y2="274.1"/>
+      <line class="st10" x1="571.3" y1="305.4" x2="571.3" y2="274.1"/>
+      <g>
+        <line class="st10" x1="546.1" y1="281.2" x2="570.5" y2="281.2"/>
+        <polygon class="st24" points="548.5 284.2 549.1 283.7 546.4 281.2 549.1 278.7 548.5 278.1 545.3 281.2 548.5 284.2"/>
+        <polygon class="st24" points="568 284.2 567.5 283.7 570.2 281.2 567.5 278.7 568 278.1 571.3 281.2 568 284.2"/>
+      </g>
+      <text class="st3" transform="translate(521.6 265.8)"><tspan x="0" y="0">4.5</tspan><tspan x="-2.3" y="7.5">mm</tspan></text>
+      <text class="st3" transform="translate(551.3 265.8)"><tspan x="0" y="0">3.5</tspan><tspan x="-2.3" y="7.5">mm</tspan></text>
+      <g>
+        <line class="st9" x1="498.6" y1="322.3" x2="498.6" y2="328.4"/>
+        <polygon class="st24" points="495.7 324.7 496.2 325.1 498.6 322.5 501 325.1 501.6 324.7 498.6 321.5 495.7 324.7"/>
+      </g>
+      <g>
+        <line class="st9" x1="498.6" y1="313.9" x2="498.6" y2="307.7"/>
+        <polygon class="st24" points="501.6 311.5 501 311 498.6 313.6 496.2 311 495.7 311.5 498.6 314.7 501.6 311.5"/>
+      </g>
+      <line class="st9" x1="505.6" y1="320.9" x2="491.6" y2="320.9"/>
+      <line class="st9" x1="505.6" y1="315.3" x2="491.6" y2="315.3"/>
+      <g>
+        <line class="st9" x1="498.6" y1="343.2" x2="498.6" y2="349.4"/>
+        <polygon class="st24" points="495.7 345.6 496.2 346.1 498.6 343.5 501 346.1 501.6 345.6 498.6 342.4 495.7 345.6"/>
+      </g>
+      <g>
+        <line class="st9" x1="498.6" y1="334.8" x2="498.6" y2="328.6"/>
+        <polygon class="st24" points="501.6 332.4 501 331.9 498.6 334.5 496.2 331.9 495.7 332.4 498.6 335.6 501.6 332.4"/>
+      </g>
+      <line class="st9" x1="505.6" y1="341.8" x2="491.6" y2="341.8"/>
+      <line class="st9" x1="505.6" y1="336.2" x2="491.6" y2="336.2"/>
+      <g>
+        <g>
+          <line class="st9" x1="635.9" y1="310" x2="635.9" y2="320.7"/>
+          <polygon class="st24" points="633 312.4 633.5 312.9 635.9 310.3 638.3 312.9 638.9 312.4 635.9 309.2 633 312.4"/>
+          <polygon class="st24" points="633 318.3 633.5 317.9 635.9 320.5 638.3 317.9 638.9 318.3 635.9 321.5 633 318.3"/>
+        </g>
+        <line class="st9" x1="642.9" y1="309.6" x2="628.9" y2="309.6"/>
+        <line class="st9" x1="642.9" y1="321.6" x2="576.5" y2="321.6"/>
+      </g>
+      <g>
+        <g>
+          <line class="st9" x1="635.9" y1="347.1" x2="635.9" y2="336.3"/>
+          <polygon class="st24" points="638.9 344.7 638.3 344.2 635.9 346.8 633.5 344.2 633 344.7 635.9 347.9 638.9 344.7"/>
+          <polygon class="st24" points="638.9 338.7 638.3 339.2 635.9 336.6 633.5 339.2 633 338.7 635.9 335.5 638.9 338.7"/>
+        </g>
+        <line class="st9" x1="642.9" y1="347.4" x2="628.9" y2="347.4"/>
+        <line class="st9" x1="642.9" y1="335.4" x2="576.5" y2="335.4"/>
+      </g>
+      <text class="st3" transform="translate(647.4 332.4)"><tspan x="0" y="0">2mm</tspan></text>
+      <text class="st3" transform="translate(643.7 318.8)"><tspan x="0" y="0">1.5mm</tspan></text>
+      <text class="st3" transform="translate(643.7 344.7)"><tspan x="0" y="0">1.5mm</tspan></text>
+      <text class="st3" transform="translate(463.3 331.1)"><tspan x="0" y="0">2mm</tspan></text>
+      <text class="st3" transform="translate(450.4 319.8)"><tspan x="0" y="0">0.75mm</tspan></text>
+      <text class="st3" transform="translate(450.4 341.7)"><tspan x="0" y="0">0.75mm</tspan></text>
+    </g>
+    <g>
+      <path class="st21" d="M634.5,227.6s-3.9,21.3-22.2,35"/>
+      <polygon class="st0" points="612.3 252 614.3 252.3 612.8 262 622.6 262.8 622.5 264.8 610.5 263.8 612.3 252"/>
+    </g>
+  </g>
+</svg>
