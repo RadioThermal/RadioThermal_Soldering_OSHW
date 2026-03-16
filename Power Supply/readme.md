@@ -12,7 +12,7 @@ The design includes provisions for inrush current limiting, reverse polarity pro
 
 ![](./PCB/Renders/PCB2_3B1_schmatic_white.svg)
 
-Components required to assemble the board can be found in the [Digikey list we maintain](https://www.mag-inc.com/Media/Magnetics/Datasheets/0077932A7.pdf), please let us know if there is a stocking issue for a component so that we can find a suitable alternative.
+Components required to assemble the board can be found in the [Digikey list we maintain](https://www.digikey.com/en/mylists/list/TX6W4U7QY7), please let us know if there is a stocking issue for a component so that we can find a suitable alternative.
 
 #### The Case
 
