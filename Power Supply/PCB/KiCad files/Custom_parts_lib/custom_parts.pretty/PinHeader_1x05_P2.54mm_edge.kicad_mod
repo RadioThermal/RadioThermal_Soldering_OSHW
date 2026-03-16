@@ -1,0 +1,239 @@
+(footprint "PinHeader_1x05_P2.54mm_edge"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "surface-mounted straight pin header, 1x05, 2.54mm pitch, single row, style 1 (pin 1 left)")
+	(tags "Surface mounted pin header SMD 1x05 2.54mm single row style1 pin1 left")
+	(property "Reference" "REF**"
+		(at 0 -7.46 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f37dd223-02b0-42f4-9813-4b5155930131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x05_P2.54mm_edge"
+		(at 0 7.46 0)
+		(layer "F.Fab")
+		(uuid "5ef1633d-9fcf-422e-9bb3-71e79ebb03e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a04176-b2df-4f4e-97bb-e96fb6e278e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13016350-40ec-40c5-a652-f3041f1a94b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.41 -6.85)
+		(end -3.41 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6058173-1256-418f-bb88-68dce4eba708")
+	)
+	(fp_line
+		(start -3.41 6.85)
+		(end 3.41 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60c99e8a-833a-40b0-a67f-d17b20e146c0")
+	)
+	(fp_line
+		(start 3.41 -6.85)
+		(end -3.41 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3104b097-61fd-45c0-b561-f8b814bf3e50")
+	)
+	(fp_line
+		(start 3.41 6.85)
+		(end 3.41 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7feacc0e-f9a6-4b43-8361-25ced1b2a673")
+	)
+	(fp_line
+		(start -2.54 -5.4)
+		(end -2.54 -4.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5636f93f-867a-48e8-a0b2-9d478c760359")
+	)
+	(fp_line
+		(start -2.54 -4.76)
+		(end -1.27 -4.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e63ab81d-d995-46a4-b6f8-c4f3b68069e3")
+	)
+	(fp_line
+		(start -2.54 -0.32)
+		(end -2.54 0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d145b27-2d56-49a5-aa7d-5527baf5ecc2")
+	)
+	(fp_line
+		(start -2.54 0.32)
+		(end -1.27 0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d79bcc36-3654-4418-b4e7-2c1db794b889")
+	)
+	(fp_line
+		(start -2.54 4.76)
+		(end -2.54 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a4a2d4c-a267-416c-9398-a0961f6b0569")
+	)
+	(fp_line
+		(start -2.54 5.4)
+		(end -1.27 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2102c2a-347d-45a7-9af4-1b638c19c3cd")
+	)
+	(fp_line
+		(start -1.27 -5.4)
+		(end -2.54 -5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dce30302-0833-4962-a0a4-b9b091445dc8")
+	)
+	(fp_line
+		(start -1.27 -0.32)
+		(end -2.54 -0.32)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40ea8f34-f6d3-4df4-8789-96072787aaab")
+	)
+	(fp_line
+		(start -1.27 4.76)
+		(end -2.54 4.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c0b65e5-30d3-4bfa-9c03-a98969a42e4c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "87ed83b3-2e91-4f97-a294-254a2852d47c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -5.08)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f35095d4-4833-4815-bb5b-c93ec977ee7a")
+	)
+	(pad "2" smd rect
+		(at 0 -2.54)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "062f9167-21cc-4654-a364-2361f0bc0ed4")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0296c04c-b89e-4adb-8956-6ef8e77ab640")
+	)
+	(pad "4" smd rect
+		(at 0 2.54)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c736b78-22bb-40f4-a96c-5a8cc1b1e6b7")
+	)
+	(pad "5" smd rect
+		(at 0 5.08)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23dfaaa3-a609-40db-ad09-4273e7cda697")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

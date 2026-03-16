@@ -1,0 +1,252 @@
+(footprint "L_Pulse_PA4343"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded Molded High Current Power Inductors 23.5x22mm, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/pa4349.104anlt")
+	(tags "Shielded Molded High Current Power Inductor")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(layer "F.SilkS")
+		(uuid "d25b975c-9d83-4744-8b49-981fb2d22021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Pulse_PA4343"
+		(at 0 7.62 0)
+		(layer "F.Fab")
+		(uuid "a6d11570-e58c-410c-8d4c-abcc20cb909c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "196857bf-7a33-405e-afa9-7c8ee1dc22cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f4dab15-845c-4cfc-8ef7-66d50baa00df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7 -7)
+		(end -5.95 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ab124df-adf6-4a2e-96fe-fb98ec5890cd")
+	)
+	(fp_line
+		(start -7 -5.9)
+		(end -7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83bf6585-d5e6-4ca4-8459-c6223e987f4c")
+	)
+	(fp_line
+		(start -6.5 -6.52)
+		(end -6.5 -5.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c4bc599-f665-45df-b1b0-f60b253cdb96")
+	)
+	(fp_line
+		(start -6.5 -6.52)
+		(end 6.5 -6.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2e438c9-d406-4048-aae3-274cb1b785c0")
+	)
+	(fp_line
+		(start -6.5 5.48)
+		(end -6.5 6.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d12c0abe-c947-455e-9bce-31cdf4a00696")
+	)
+	(fp_line
+		(start -6.5 6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a10bdf5-fcca-4305-b238-36566cc6f1c2")
+	)
+	(fp_line
+		(start 6.5 -6.52)
+		(end 6.5 -5.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bc4b36f-44d9-4410-8330-27892a2c82bb")
+	)
+	(fp_line
+		(start 6.5 5.48)
+		(end 6.5 6.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "661c0599-eaf7-48f2-886b-cf5c584d6564")
+	)
+	(fp_line
+		(start -6.5 -6.5)
+		(end 6.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f95df29d-bced-447e-bcd4-f308563da751")
+	)
+	(fp_line
+		(start -6.5 6.55)
+		(end -6.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a1b234c-eb86-4abe-88de-cd0f0a01d74a")
+	)
+	(fp_line
+		(start 6.5 -6.52)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71501d15-207a-441f-9b2a-b4ee61923ed6")
+	)
+	(fp_line
+		(start 6.5 6.52)
+		(end -6.5 6.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfc5f59a-c4f5-4240-81e3-f70e26bc2453")
+	)
+	(fp_line
+		(start -6.5 -6.5)
+		(end 6.5 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca81cb5e-cfe5-4f16-be08-41bb9c2f8f01")
+	)
+	(fp_line
+		(start -6.5 6.5)
+		(end -6.5 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4a8ca6c-268e-42c9-bad5-b9c2e13c22a4")
+	)
+	(fp_line
+		(start -6.5 6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f457d175-4c49-4f9c-a56a-07337b6565d0")
+	)
+	(fp_line
+		(start 6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "270caf86-53a6-43f4-bd72-e0e461c6a863")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2b88929d-9778-460b-9fd5-a4d692563d38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.099999 0 90)
+		(size 10 5.749998)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "019c8b2c-b671-41f2-9315-c7790ab06337")
+	)
+	(pad "2" smd rect
+		(at 6.999999 0 90)
+		(size 10 5.749998)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a6d73e4-03cb-4b96-bf6d-109c8705ce10")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Pulse_PA4349.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

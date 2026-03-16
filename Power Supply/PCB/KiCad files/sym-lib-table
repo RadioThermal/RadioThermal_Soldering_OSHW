@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT1720")(type "KiCad")(uri "${KIPRJMOD}/ul_LT1720CS8-PBF/KiCADv6/2025-10-11_05-51-54.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5111")(type "KiCad")(uri "${KIPRJMOD}/ul_LM5111-1MX-NOPB/KiCADv6/2025-10-11_06-11-49.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC920")(type "KiCad")(uri "${KIPRJMOD}/ul_MIC920YC5-TR/KiCADv6/2025-10-11_18-43-18.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/Custom_parts_lib/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "custom_parts")(type "KiCad")(uri "${KIPRJMOD}/Custom_parts_lib/custom_parts.kicad_sym")(options "")(descr ""))
+)

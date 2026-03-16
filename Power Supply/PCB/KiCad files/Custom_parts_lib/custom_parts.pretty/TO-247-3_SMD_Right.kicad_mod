@@ -1,0 +1,221 @@
+(footprint "TO-247-3_SMD_Right"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-247-3, Vertical, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
+	(tags "TO-247-3 Vertical RM 5.45mm")
+	(property "Reference" "REF**"
+		(at 5.45 -3.28 0)
+		(layer "F.SilkS")
+		(uuid "f289d477-a694-43d7-9b6a-540149a930c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-247-3_SMD_Right"
+		(at 5.45 3.65 0)
+		(layer "F.Fab")
+		(uuid "68fef5bc-4ab1-408e-9295-d7953aa9a269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ae3058d-0cdb-46f8-8ae7-d941ea8093ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "528df6c3-033d-4727-bd1d-5104d8c1377a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.09 -2.54)
+		(end -1.99 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69caf1fd-ebba-4b4a-98c7-03780f963feb")
+	)
+	(fp_line
+		(start -3.048 16.256)
+		(end -3.048 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6bb3f2b-1d03-43b5-9572-850d69e77415")
+	)
+	(fp_line
+		(start 1.579 -2.54)
+		(end 4.009 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72143e46-b6dd-4af4-b178-1f196c373beb")
+	)
+	(fp_line
+		(start 3.645 -2.44)
+		(end 3.645 -2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60d6f22b-a82f-4d5e-8105-1a349e05faaf")
+	)
+	(fp_line
+		(start 6.913 -2.54)
+		(end 9.343 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a25b28b2-3d1f-4148-8e4f-d283b9307c13")
+	)
+	(fp_line
+		(start 12.87 -2.54)
+		(end 13.97 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee1a5bae-b6df-4aa1-b7b0-2522800dab61")
+	)
+	(fp_line
+		(start 13.97 -2.371)
+		(end 13.97 16.256)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "708baea4-a4d0-4bb5-8cd7-7851905dd8c9")
+	)
+	(fp_line
+		(start 13.97 16.256)
+		(end -3.048 16.256)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39662836-2de6-499c-ac1f-36710db20e88")
+	)
+	(fp_rect
+		(start -3.004 -2.58)
+		(end 13.904 16.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4d14c4ec-5d4d-497b-93f4-78ef2d0d1ed6")
+	)
+	(fp_line
+		(start 3.645 -2.33)
+		(end 3.645 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "037ccc64-c47b-4511-b590-c21ec61db771")
+	)
+	(fp_line
+		(start 7.255 -2.33)
+		(end 7.255 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2ff197a-17a2-4d94-96f7-d7cc90dffa12")
+	)
+	(fp_rect
+		(start -3.008 -2.33)
+		(end 13.908 16.162)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e32b7d8-e3f2-41cb-b4be-143c8c0e25ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.45 0.19 0)
+		(layer "F.Fab")
+		(uuid "32d9831c-ce9b-4500-9dbe-61c712c05fbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.635 6.875)
+		(size 3.77 18.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c1e2632d-8efe-406b-9564-6f4ab7496e91")
+	)
+	(pad "2" smd roundrect
+		(at 5.481 6.858)
+		(size 3.77 18.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b78dac12-2995-4119-8bbf-9f938276571f")
+	)
+	(pad "3" smd roundrect
+		(at 11.537 6.858)
+		(size 3.77 18.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3080b0c4-2304-43a7-9e17-7018b399f0b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-3_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
