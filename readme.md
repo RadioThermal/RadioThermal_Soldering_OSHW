@@ -27,7 +27,7 @@ The cable is a specially modified RG-174 coaxial cable with SMA connectors on ea
 
 ### [Workstand](https://github.com/RadioThermal/RadioThermal_Soldering_OSHW/tree/main/Workstand)
 
-The workstand is a primarly 3D printed part that gives the user a safe place to their hot soldering iron, along with brass wool to clean the tip. Magnets are used to cool down the soldering iron tip when not in use. The back of the stand contains storage for three tips.
+The workstand is a primarly 3D printed part that gives the user a safe place to their hot soldering iron, along with brass wool to clean the tip. Magnets are used to cool down the soldering iron tip when not in use. The back of the stand contains storage for four tips.
 
 ![ws](./Workstand/media/470-Workstand-min.jpg)
 
@@ -44,5 +44,5 @@ Here is an overview of the current state of completion for each major component 
 | Power Supply           | PCB complete, needs case files                 |
 | Handpiece              | complete                                       |
 | Cable                  | complete, need updated photos for instructions |
-| Workstand              | Updated version coming soon                    |
+| Workstand              | complete, needs assembly instructions          |
 | Compatibility Adapters | Updated version coming soon                    |
