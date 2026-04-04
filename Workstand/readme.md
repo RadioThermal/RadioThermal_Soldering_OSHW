@@ -1,4 +1,4 @@
-# Workstand Assembly Instructions
+## Workstand Assembly Instructions
 
 ![470-Workstand-min.jpg](./media/470-Workstand-min.jpg)
 
