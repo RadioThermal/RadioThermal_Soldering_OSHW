@@ -41,8 +41,8 @@ Here is an overview of the current state of completion for each major component 
 
 | Component              | Status                                         |
 | ---------------------- | ---------------------------------------------- |
-| Power Supply           | PCB complete, needs case files                 |
+| Power Supply           | complete                                       |
 | Handpiece              | complete                                       |
 | Cable                  | complete, need updated photos for instructions |
-| Workstand              | complete, needs assembly instructions          |
+| Workstand              | complete                                       |
 | Compatibility Adapters | Updated version coming soon                    |
