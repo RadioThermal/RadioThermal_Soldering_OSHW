@@ -2,6 +2,7 @@ RadioThermal 470KHz Induction Soldering Station - Open Source Hardware
 ========================
 
 This repository contains the designs and resources to build a high-perfomance induction soldering iron at a relatively low cost. [Check out radiothermal.com for more information.](https://radiothermal.com/products.html)
+### [Join our Discord server](https://discord.gg/hySrP3z9Kq)
 
 ### [Join our mailing list to get updates on this project](https://radiothermal.com/mailing.html)
 
