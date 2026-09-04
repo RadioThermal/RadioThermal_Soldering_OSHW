@@ -1,14 +1,14 @@
 (footprint "L_Pulse_PA4343"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Shielded Molded High Current Power Inductors 23.5x22mm, https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/pa4349.104anlt")
 	(tags "Shielded Molded High Current Power Inductor")
 	(property "Reference" "REF**"
 		(at 0 -8 0)
 		(layer "F.SilkS")
-		(uuid "d25b975c-9d83-4744-8b49-981fb2d22021")
+		(uuid "957f7e81-57c4-4c36-b341-cb375d6d479d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_Pulse_PA4343"
 		(at 0 7.62 0)
 		(layer "F.Fab")
-		(uuid "a6d11570-e58c-410c-8d4c-abcc20cb909c")
+		(uuid "b23a7acd-0057-4424-bc98-7f1266fb20fd")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "196857bf-7a33-405e-afa9-7c8ee1dc22cf")
+		(uuid "ce4c6592-66b9-418e-b5ce-9113e010dce5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2f4dab15-845c-4cfc-8ef7-66d50baa00df")
+		(uuid "858c52f3-f0b2-42ea-95ff-ae38ad87a8fc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7 -7)
 		(end -5.95 -7)
@@ -62,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ab124df-adf6-4a2e-96fe-fb98ec5890cd")
+		(uuid "2b0a4612-1bd0-497a-b724-70dc09ccf7a3")
 	)
 	(fp_line
 		(start -7 -5.9)
@@ -72,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "83bf6585-d5e6-4ca4-8459-c6223e987f4c")
+		(uuid "c60d88c2-8348-4ef4-88a7-6d0774a8adfc")
 	)
 	(fp_line
 		(start -6.5 -6.52)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1c4bc599-f665-45df-b1b0-f60b253cdb96")
+		(uuid "e3decc34-d950-478a-99a0-8829bb23baad")
 	)
 	(fp_line
 		(start -6.5 -6.52)
@@ -92,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b2e438c9-d406-4048-aae3-274cb1b785c0")
+		(uuid "3fcac1f2-e1cd-403d-accd-d34ce4ed5a58")
 	)
 	(fp_line
 		(start -6.5 5.48)
@@ -102,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d12c0abe-c947-455e-9bce-31cdf4a00696")
+		(uuid "dbbb55e0-ccc5-4df5-a118-042442206fdf")
 	)
 	(fp_line
 		(start -6.5 6.5)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9a10bdf5-fcca-4305-b238-36566cc6f1c2")
+		(uuid "57fa3aae-e0f4-4dbe-8adb-076eebb5cf14")
 	)
 	(fp_line
 		(start 6.5 -6.52)
@@ -122,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5bc4b36f-44d9-4410-8330-27892a2c82bb")
+		(uuid "39573434-c510-4693-b3bf-265ffcb6de4a")
 	)
 	(fp_line
 		(start 6.5 5.48)
@@ -132,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "661c0599-eaf7-48f2-886b-cf5c584d6564")
+		(uuid "a4519e0a-720b-404b-a241-eeb6291d2396")
 	)
 	(fp_line
 		(start -6.5 -6.5)
@@ -142,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f95df29d-bced-447e-bcd4-f308563da751")
+		(uuid "d6cd8f5f-1026-4326-a578-b9f4c115e7e7")
 	)
 	(fp_line
 		(start -6.5 6.55)
@@ -152,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5a1b234c-eb86-4abe-88de-cd0f0a01d74a")
+		(uuid "4a357f8d-76e5-4d3b-9cbb-446a9e20a43c")
 	)
 	(fp_line
 		(start 6.5 -6.52)
@@ -162,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "71501d15-207a-441f-9b2a-b4ee61923ed6")
+		(uuid "7de901b6-1ee0-4bdc-8fcd-6320cd668bac")
 	)
 	(fp_line
 		(start 6.5 6.52)
@@ -172,7 +173,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dfc5f59a-c4f5-4240-81e3-f70e26bc2453")
+		(uuid "b441155d-2da1-49f8-b98f-6088d2584f54")
 	)
 	(fp_line
 		(start -6.5 -6.5)
@@ -182,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ca81cb5e-cfe5-4f16-be08-41bb9c2f8f01")
+		(uuid "79a7940b-e5ad-421c-bf93-9002812972ef")
 	)
 	(fp_line
 		(start -6.5 6.5)
@@ -192,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c4a8ca6c-268e-42c9-bad5-b9c2e13c22a4")
+		(uuid "41badc2e-de2e-453b-92ea-c25770c06b31")
 	)
 	(fp_line
 		(start -6.5 6.5)
@@ -202,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f457d175-4c49-4f9c-a56a-07337b6565d0")
+		(uuid "77342b62-2339-45a5-924e-73584634e73e")
 	)
 	(fp_line
 		(start 6.5 -6.5)
@@ -212,12 +213,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "270caf86-53a6-43f4-bd72-e0e461c6a863")
+		(uuid "e267056e-ae8f-463c-8322-480ec90a97ad")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "2b88929d-9778-460b-9fd5-a4d692563d38")
+		(uuid "3828267b-4dd8-46d1-a8e1-3e755856566e")
 		(effects
 			(font
 				(size 1 1)
@@ -229,16 +230,16 @@
 		(at -7.099999 0 90)
 		(size 10 5.749998)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "019c8b2c-b671-41f2-9315-c7790ab06337")
+		(uuid "1b9db3f2-cc0a-4c8d-8bf1-c43b1f244e79")
 	)
 	(pad "2" smd rect
 		(at 6.999999 0 90)
 		(size 10 5.749998)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1a6d73e4-03cb-4b96-bf6d-109c8705ce10")
+		(uuid "2ac83684-7dc5-4229-8eb3-9281e9b3b08b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Pulse_PA4349.step"
+	(model "${KIPRJMOD}/33uh inductor.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -246,7 +247,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )

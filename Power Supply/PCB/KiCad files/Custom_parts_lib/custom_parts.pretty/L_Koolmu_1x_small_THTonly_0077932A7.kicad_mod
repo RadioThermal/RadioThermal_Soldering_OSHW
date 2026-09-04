@@ -1,4 +1,4 @@
-(footprint "L_Koolmu_1x_small_THT_0077932A7_1"
+(footprint "L_Koolmu_1x_small_THTonly_0077932A7"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "043441bc-6ad6-4e9a-be36-f54ee05dfb91")
+		(uuid "689cbf94-193c-4e78-8aac-1010b9893e15")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -15.24 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a4484501-ca54-4858-9f27-c0c1e49327d0")
+		(uuid "b5609007-daa8-465c-bbf4-db3185cd955b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ee3798e-039e-4471-84fb-40b9b15823d4")
+		(uuid "6f57cb92-caa9-46bf-9581-1863d238f75d")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f49521af-9ba1-4bb8-9eca-ebe4e013fc8f")
+		(uuid "af7f86c7-8052-4468-bf4b-dbf50c04e3de")
 		(effects
 			(font
 				(size 1 1)
@@ -56,15 +56,15 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -15 -2)
-		(end 15 2)
+		(start -10 -1.5)
+		(end 10 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "66733fb9-4fcb-47ac-8655-75abd173da3e")
+		(uuid "e5234bcb-d9d1-4498-bf63-9b0a6dc798f0")
 	)
 	(fp_rect
 		(start -7 -16)
@@ -75,26 +75,19 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "eea2f378-8c74-4b36-bc62-ec1a2237864c")
+		(uuid "225f829c-c4e8-43aa-847a-75031b8d285c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 15.24 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bb5da13d-54b9-4cb7-bd91-b7cb42b8fe80")
+		(uuid "a56d8f30-65de-428f-afe6-f8a7f4671650")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "1" smd roundrect
-		(at -10.16 0)
-		(size 10 3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.06631299735)
-		(uuid "3497e4c2-8298-4a56-9f92-3427deb5123c")
 	)
 	(pad "1" thru_hole roundrect
 		(at -8.382 0)
@@ -103,7 +96,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "a1bc73f3-d212-481d-ad59-f42a0b68cc51")
+		(uuid "8fd1d1ef-d2cd-41d7-aa06-47b676b34404")
 	)
 	(pad "2" thru_hole roundrect
 		(at 8.382 0)
@@ -112,19 +105,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "eeefd68f-2a0f-47e9-a769-ab7430ec0833")
-	)
-	(pad "2" smd roundrect
-		(at 10 0)
-		(size 10 3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.06631299735)
-		(uuid "e27082eb-0e37-4010-9eb8-87aca8b27863")
+		(uuid "a022f68d-9356-4978-a4e2-0d75bd64a8e9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jerem/Downloads/koolmu core.step"
+	(model "${KIPRJMOD}/koolmu core THT.step"
 		(offset
-			(xyz 5 0 13.5)
+			(xyz 5.7 0 13.5)
 		)
 		(scale
 			(xyz 1 1 1)

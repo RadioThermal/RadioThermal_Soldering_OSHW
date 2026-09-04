@@ -2,6 +2,7 @@ RadioThermal 470KHz Induction Soldering Station - Open Source Hardware
 ========================
 
 This repository contains the designs and resources to build a high-performance induction soldering iron at a relatively low cost. [Check out radiothermal.com for more information.](https://radiothermal.com/products.html)
+
 ### [Join our Discord server](https://discord.gg/hySrP3z9Kq)
 
 ### [Join our mailing list to get updates on this project](https://radiothermal.com/mailing.html)
@@ -14,7 +15,7 @@ The 470KHz soldering system is made up of four major components: the power suppl
 
 The power supply is the core of the 470KHz system. It consists of a PCB design that includes a class-E amplifier and contains impedance matching circuitry to properly provide power to the soldering iron tip. 
 
-![case](./Power%20Supply/media/PCB2_3B.jpg)
+![case](./Power%20Supply/PCB/Renders/pcb_v2-5.png)
 
 ### [Handpiece](https://github.com/RadioThermal/RadioThermal_Soldering_OSHW/tree/main/Handpiece)
 
@@ -40,10 +41,10 @@ We have designed compatibility adapters to allow our cable and handpiece to be u
 
 Here is an overview of the current state of completion for each major component of the project
 
-| Component              | Status                                         |
-| ---------------------- | ---------------------------------------------- |
-| Power Supply           | complete                                       |
-| Handpiece              | complete                                       |
-| Cable                  | complete, need updated photos for instructions |
-| Workstand              | complete                                       |
-| Compatibility Adapters | Updated version coming soon                    |
+| Component              | Status                      |
+| ---------------------- | --------------------------- |
+| Power Supply           | Updated to V2.5B            |
+| Handpiece              | Complete                    |
+| Cable                  | Complete                    |
+| Workstand              | Complete                    |
+| Compatibility Adapters | Updated version coming soon |
