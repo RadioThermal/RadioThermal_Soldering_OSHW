@@ -12,7 +12,7 @@ The design includes provisions for inrush current limiting, reverse polarity pro
 
 In version 2.5B of the PCB, we have made a few improvements to reduce cost and increase reliability compared with version 2.3B1. Most notably the oscillator section has been redesigned to eliminate the need for a microcontroller and now only relies on a 7.6MHz crystal oscillator and TTL logic. To reduce costs, we have eliminated the daughterboard by moving everything onto the main board, additionally L2 has been updated to only use a single inductor core from the two cores required on previous versions. Moving all of this new hardware onto the main board has had the consequence of causing us to remove the TO-247 MOSFET option in favor of TO-220 to save space.
 
-![](./PCB/Renders/PCB2_3B1_schmatic_white.svg)
+![](./PCB/Renders/pcb_v2-5_schematic.svg)
 
 Components required to assemble the board can be found in the Digikey list we maintain (new version coming soon, use V2-5B_BOM.csv for now) , please let us know if there is a stocking issue for a component so that we can find a suitable alternative.
 
