@@ -14,8 +14,8 @@ Prepare your materials for assembling the core of the handpiece. Links below go 
 | Double sided copper clad FR4 board                                                                                          | 1            | Cut to 9x15mm rectangle                                                                                                                                                                                                                                                                                                                                                                          |
 | [Edge launch SMA connector](https://www.digikey.com/en/products/detail/samtec-inc/SMA-J-P-H-ST-EM1/2602450)                 | 1            | 7mm max width, straddle mount variety                                                                                                                                                                                                                                                                                                                                                            |
 | [D-Sub female socket contact](https://www.digikey.com/en/products/detail/mh-connectors/MHDM-STF/16983882)                   | 1            | Solder cup variety, can be recycled from used connectors                                                                                                                                                                                                                                                                                                                                         |
-| [4.5mmx8mm crown spring](https://www.aliexpress.us/item/3256801561640843.html?)                                             | 1            | May be possible to use 5mm springs, contact seller for more size options                                                                                                                                                                                                                                                                                                                         |
-| 470KHz soldering iron tip (not pictured)                                                                                    | 1            | [Metcal/OKi STP/SFP/SCP series](https://store.metcal.com/en-us/shop/cartridges-tips/?SearchParameter=%26%40QueryTerm%3D*%26ContextCategoryUUID%3DA7IKqwMVJm8AAAF33j98yeyl%26OnlineFlag%3D1%26SolderingType%3DProduction%2BSoldering%26System%3DMFR%26%40Sort.name%3D0&PageSize=12&SortingAttribute=name-asc) tips or [Thermaltronics P series](https://www.thermaltronics.com/p_series.php) tips |
+| 4.5mm OD x 8mm crown spring/socket contact                                             | 1            | [Aliexpress](https://www.aliexpress.us/item/3256801561640843.html?) (contact seller for more size options), [TE Connectivity](https://www.te.com/en/product-6-192041-9.html), or [DigiKey](https://www.digikey.com/short/35073bvt)                                                                                                                                                                                                                                                                                                                        |
+| 470KHz soldering iron tip                                                                                   | 1            | [Metcal/OKi STP/SFP/SCP series](https://store.metcal.com/en-us/shop/cartridges-tips/?SearchParameter=%26%40QueryTerm%3D*%26ContextCategoryUUID%3DA7IKqwMVJm8AAAF33j98yeyl%26OnlineFlag%3D1%26SolderingType%3DProduction%2BSoldering%26System%3DMFR%26%40Sort.name%3D0&PageSize=12&SortingAttribute=name-asc) tips or [Thermaltronics P series](https://www.thermaltronics.com/p_series.php) tips |
 
 ![](./media/All-Parts_Text.jpg)
 
@@ -73,7 +73,7 @@ Apply soldering flux to all of the legs of the SMA connector. Starting from the 
 | Tool           | Description/use                                                     |
 | -------------- | ------------------------------------------------------------------- |
 | Soldering iron | Soldering crown spring into tube                                    |
-| Solder         | 63/37 alloy is peferable, other leaded or lead free alloys may work |
+| Solder         | 63/37 alloy is preferable, other leaded or lead free alloys may work |
 | Flux           | Liquid type is preferable                                           |
 
 ![](./media/Socket-Tube-Parts_Text.jpg)
@@ -98,12 +98,12 @@ Once the spring has been placed, apply a small amount of liquid soldering flux t
 | Tool           | Description/use                                                     |
 | -------------- | ------------------------------------------------------------------- |
 | Soldering iron | Soldering tube and socket pin to board                              |
-| Solder         | 63/37 alloy is peferable, other leaded or lead free alloys may work |
+| Solder         | 63/37 alloy is preferable, other leaded or lead free alloys may work |
 | Flux           | Liquid type is preferable                                           |
 
 ![](./media/Socket-Assembly-Parts_Text.jpg)
 
-Begin by insering the D-Sub female socket contact onto the center pin of the coaxial connector of the soldering iron tip. Verify that the contact is able to easily slide onto the center pin and grasps firmly enough to not fall off when turned upside down. If the contact is loose on the center pin, it may be necessary to squeeze the cut end slightly so that it firmly grasps the pin. Once the socket contact has been fully inserted, slide it approximately 2mm back off of the pin so that it can account for variances in soldering iron tip connectors.
+Begin by inserting the D-Sub female socket contact onto the center pin of the coaxial connector of the soldering iron tip. Verify that the contact is able to easily slide onto the center pin and grasps firmly enough to not fall off when turned upside down. If the contact is loose on the center pin, it may be necessary to squeeze the cut end slightly so that it firmly grasps the pin. Once the socket contact has been fully inserted, slide it approximately 2mm back off of the pin so that it can account for variances in soldering iron tip connectors.
 
 Next, slide the 14mm socket tube all the way down on the outer ring of the coaxial connector on the soldering iron tip. The soldered end of the spring should be facing outwards.
 
@@ -111,11 +111,11 @@ Next, slide the 14mm socket tube all the way down on the outer ring of the coaxi
 
 Slide the notched section of the board all of the way onto the socket tube, and ensure the center pin is aligned with the 2mm copper strip.
 
-Apply flux to the points of contact between the socket tube and the board. Solder the socket tube to the board. Make sure that the solder flows onto both the tubing and board, creating a strong bond. It is only necessary to solder on the top side of the board. Be careful not to keep the soldering iron on the board and tubing for an extended period of time. Excessive heat could cause the previosuly soldered components to lose their connection. Finally, solder the D-Sub female contact onto the 2mm strip on the board.
+Apply flux to the points of contact between the socket tube and the board. Solder the socket tube to the board. Make sure that the solder flows onto both the tubing and board, creating a strong bond. It is only necessary to solder on the top side of the board. Be careful not to keep the soldering iron on the board and tubing for an extended period of time. Excessive heat could cause the previously soldered components to lose their connection. Finally, solder the D-Sub female contact onto the 2mm strip on the board.
 
 ![](./media/Socket-Assembly-Setup2.jpg)
 
-Now the socket assembly is complete. Clean off any remaining flux. Test the socket assembly using a multimeter in contiunity mode with probes connected to the center pin and outside of the SMA connector. If no soldering iron tip is inserted, the connection will be open. If a tip is inserted, the connection will be shorted.
+Now the socket assembly is complete. Clean off any remaining flux. Test the socket assembly using a multimeter in continuity mode with probes connected to the center pin and outside of the SMA connector. If no soldering iron tip is inserted, the connection will be open. If a tip is inserted, the connection will be shorted.
 
 ![](./media/Finished-Socket-Assembly.jpg)
 
@@ -132,7 +132,7 @@ Now the socket assembly is complete. Clean off any remaining flux. Test the sock
 | Tool              | Description/use                                                     |
 | ----------------- | ------------------------------------------------------------------- |
 | Soldering iron    | Soldering tube and socket pin to board                              |
-| Solder            | 63/37 alloy is peferable, other leaded or lead free alloys may work |
+| Solder            | 63/37 alloy is preferable, other leaded or lead free alloys may work |
 | Flux              | Liquid type is preferable                                           |
 | Isopropyl alcohol | Removing flux residue                                               |
 
@@ -165,7 +165,7 @@ The inner portion of the handpiece is complete. Clean off any remaining flux and
 
 ![](./media//Final-Assembly-Pieces_Text.jpg)
 
-Inspect the 3D printed handpiece grip to verify that there is no stringing inside the hole. If stringing is present, use a 1/4" drill bit to clear the hole. Next, insert the inner assembly into the 3D printed grip. It should be a tight fit. If the innser assembly cannot be inserted, use a 1/4" drill bit to enlarge the hole. The inner assembly is fully inserted when only the SMA connector is protruding from the grip.
+Inspect the 3D printed handpiece grip to verify that there is no stringing inside the hole. If stringing is present, use a 1/4" drill bit to clear the hole. Next, insert the inner assembly into the 3D printed grip. It should be a tight fit. If the inner assembly cannot be inserted, use a 1/4" drill bit to enlarge the hole. The inner assembly is fully inserted when only the SMA connector is protruding from the grip.
 
 Now your 470KHz handpiece is complete!
 
