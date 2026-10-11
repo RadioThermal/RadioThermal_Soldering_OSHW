@@ -21,7 +21,7 @@ Take a sharp cutting implement and make a vertical incision about 3cm long at on
 
 Heat one end of the coax with a soldering iron, pushing the shield into the dielectric for about 5mm from the end. Depending on the coax core material, this may not work and you will instead need to solder the very front of the coax. This is necessary to keep the shield from catching and getting stuck while feeding the coax through the heatshrink.
 
-Apply an aligator clip to the end that is not soldered to prevent the shield from shifting.
+Apply an alligator clip to the end that is not soldered to prevent the shield from shifting.
 
 Lightly lubricate the coax and the lubricate the inside of the silicone heatshrink with any liquid lubricant. Even mineral oil or WD40 will work fine here. I'd caution against using water, because it might cause corrosion, or vegetable oil, because it can gum up over time.
 
@@ -29,7 +29,7 @@ Feed the coax through the silicone heatshrink. When it becomes difficult to feed
 Pinch and hold the end of the coax through the heatshrink
 Stretch the heatshrink a few centimeters toward the loose end
 Pinch and hold the coax through the heatshrink at the end of the stretched section
-Release the end of the coax and it should be pushed foward by the contracting heatshrink.
+Release the end of the coax and it should be pushed forward by the contracting heatshrink.
 
 When the coax is completely though, apply alligator clips to each end to prevent shifting within the heatshrink.
 
@@ -40,7 +40,7 @@ Slide the strain relief heatshrink sections into the center of the cable in the 
 #### 5. Install the SMA connectors
 
 Pull back the silicone heatshrink about 3cm and re-secure it with the alligator clip.
-Slide a 2mm section of the 3mm ID heatshrink onto the cable (this provides a smooth transistion for strain relief purposes) 
+Slide a 2mm section of the 3mm ID heatshrink onto the cable (this provides a smooth transition for strain relief purposes) 
 Slide the crimp ferrule onto the coax and up to the jacket.
 Cut off the melted/soldered section of the coax.
 
@@ -83,7 +83,7 @@ Slide the 2mm long section of 3mm ID heatshrink against the crimp ferrule and sh
 
 Release the 3mm heatshrink jacket from its aligator clip and slide it over the 2mm long section and the ferrule. This may require lubrication. If the connector is Type 2, only slide the jacket over the smaller section.
 
-Shrink the silcone jacket.
+Shrink the silicone jacket.
 
 Wait for the cable to cool, then slide the piece of 5mm ID heatshrink tubing over the ferrule, as close to the SMA connector as it will go.
 While pushing on the end away from the SMA, use hot air to heat the end next to the SMA until it stops shrinking. Then stop pushing and heat the rest of the 5mm heatshrink.
