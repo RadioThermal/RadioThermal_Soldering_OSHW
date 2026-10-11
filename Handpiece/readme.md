@@ -1,6 +1,8 @@
 # 470KHz Handpiece Assembly Instructions
 
+The provided handpiece design is only compatible with Metcal/OKi STP/SFP/SCP series tips and Thermaltronics P series tips. For details on how to use Thermaltronics K series, Metcal/OKi SSC series, Thermaltronics S series tips, please see the **Other tip systems** section at the bottom of this page.
 
+There are no current plans to support the Metcal/OKi SxV/CxV series of tips due to the requirement to use a separate coil assembly.
 
 #### 1. Gather materials
 
@@ -172,3 +174,29 @@ Inspect the 3D printed handpiece grip to verify that there is no stringing insid
 Now your 470KHz handpiece is complete!
 
 ![](./media/Finished-Handpiece.jpg)
+
+
+## Other tip systems
+The following 470KHz tip systems are available in addition to the Metcal/OKi STP/SFP/SCP series tips and Thermaltronics P series tips.
+
+| Manufacturer           | Series name | Tip connector   | Integrated Coil | Major differences from standard tips                                                                        |
+| ---------------------- | ----------- | --------------- | --------------- | ----------------------------------------------------------------------------------------------------------- |
+| Thermaltronics         | P           | coaxial         | yes             | standard tip, 5.5mm OD, equivalent to Metcal STP/SFP/SCP                                                    |
+| Thermaltronics         | K           | coaxial         | yes             | significantly shorter with 6.3mm OD                                                                         |
+| Thermaltronics         | KD          | TRRRS           | yes             | for use with dual output power supplies                                                                     |
+| Thermaltronics         | KTZ         | stepped coaxial | yes             | designed for use with soldering tweezers                                                                    |
+| Thermaltronics         | KDT         | stepped coaxial | yes             | designed for use with desoldering gun                                                                       |
+| Thermaltronics         | S           | bi-pin          | yes             | slightly shorter with 6.3mm OD, uses flat side of shaft to prevent rotation, equivalent to Metcal SSC       |
+| Metcal/OKi             | STP/SFP/SCP | coaxial         | yes             | standard tip, 5.5mm OD, equivalent to Thermaltronics P                                                      |
+| Metcal/OKi             | SSC         | bi-pin          | yes             | slightly shorter with 6.3mm OD, uses flat side of shaft to prevent rotation, equivalent to Thermaltronics S |
+| Metcal/OKi             | TxP         | stepped coaxial | yes             | designed for use with soldering tweezers                                                                    |
+| Metcal/OKi             | SxV/CxV     | N/A             | no              | utilizes induction coil built into handpiece                                                                |
+| Metcal/OKi             | DxP         | N/A             | no              | designed for use with desoldering gun, utilizes induction coil built into handpiece                         |
+
+Currently only the Metcal/OKi STP/SFP/SCP series tips and Thermaltronics P series tips are supported, however we will provide instructions below on how to use other series of tips if we test them. 
+
+### Thermaltronics K series tips
+
+The K series tip utilizes the same coaxial connector as the Metcal/OKi STP/SFP/SCP series tips and Thermaltronics P series tips while having a significantly shorter overall length and slightly larger diameter. In testing we have discovered that a 33nF capacitor is required in series with the tip to properly match the tip inductance to the power supply. Without the capacitor the idle power is too high on the tips causing them to overheat, if the 33nF capacitor causes the tip to take too long to heat up, switching to a 47nF capacitor will increase power during the warm up process at the cost of marginally higher idle power.
+
+To build a handpiece core for this tip follow steps 2-5 in the above instructions, however cut the center pin of the tip connector shorter and leave a 1.5mm gap between the SMA center pin and tip connector center pin. In the gap, cut the trace between the tip connector center pin and add a 0805 package 33nF ceramic capacitor rated for at least 100V and with C0G/NP0 dielectric. For the outer sheath, utilize 9/32" OD x 0.014" Wall brass tubing cut to 25mm length, this should extend to approximately 1mm behind the yellow band on the tip. 1
