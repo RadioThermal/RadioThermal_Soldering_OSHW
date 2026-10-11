@@ -13,7 +13,7 @@ Prepare your materials for assembling the workstand. Links below go to where mat
 | 3/8th" steel plate             | 1            | Weight for the stand, cut to 90x50mm                                                                                                              |
 | 12x3mm round N52 magnets       | 8            | Enables tip sleep functionality, not required                                                                                                     |
 | M3x8 socket cap bolts          | 4            | M3x10 plastite screws can be used as well                                                                                                         |
-| Aluminum tape (155x50mm total) | 1            | Provides heat reistance to 3D prtinted parts, cut two 40x50mm pieces, one 55x50mm piece, and one 20x50mm piece                                    |
+| Aluminum tape (185x50mm total) | 1            | Provides heat resistance to 3D prtinted parts, cut two 40x50mm pieces, one 55x50mm piece, one 30x50mm piece, and one 20x50mm piece                                    |
 | Brass wool                     | 1            |                                                                                                                                                   |
 | Self adhesive rubber feet      | 4            | Optional                                                                                                                                          |
 
@@ -25,9 +25,10 @@ Prepare your materials for assembling the workstand. Links below go to where mat
 | --------------------------- | -------- |
 | 3D printed workstand insert | 1        |
 | 12x3mm round N52 magnets    | 8        |
+| 30x50mm aluminum tape       | 1        |
 | 20x50mm aluminum tape       | 1        |
 
-Start by applying the aluminum tape to the flat area on the underside of the 3d printed part. Next seperate the magnets into two stacks of four and note the polarity of each. place each stack of magnets in the cavity on each side of the insert with the same polarity facing towards the center of the tip holder so that each stack of magents repels the other. Affix the magents to the stand with hot glue. 
+Start by applying the smaller piece of aluminum tape to the flat area on the underside of the 3d printed part. Next separate the magnets into two stacks of four and note the polarity of each. Place each stack of magnets in the cavity on each side of the insert with the same polarity facing towards the center of the tip holder so that each stack of magnets repels the other. Affix the magnets to the stand with hot glue. The larger piece of aluminum tape is applied to the inside of the holster slightly overhanging the magnet side of the part, a small cut will be required in the bottom to fold it around the insert.
 
 #### 3. Assemble workstand base
 
