@@ -7,7 +7,7 @@
 	(title_block
 		(title "RTSS 470kHz Power Supply")
 		(date "2026-09-03")
-		(rev "2.5B")
+		(rev "2.5C")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1GU04DRL"
@@ -4992,7 +4992,7 @@
 		)
 		(uuid "4d6ac222-2985-491f-b719-c89e96d7f615")
 	)
-	(text "All capacitors in the RF section should be rated for at least 200V and be Class I (i.e. C0G/NP0).\nInductors L2-L5 should be wound on Kool Mu 0077932A7 cores using 22AWG or larger magnet wire.\nApproximate number of inductor turns: L2 = 14, L3 = 23, L4 = 23, L5 = 19 \nMeasure inductances at 475kHz on a VNA or at least 100kHz on a LCR. Try to be within ±0.2uH.\nWhen tuning the inductors, make the coils closer together to increase inductance, or futher apart to decrease.\nL1 sees primarily DC current and is tolerant to variation in indcutance, hence it can be an SMD inductor."
+	(text "All capacitors in the RF section should be rated for at least 200V and be Class I (i.e. C0G/NP0).\nInductors L102-L105 should be wound on Kool Mu 0077932A7 cores using 22AWG or larger magnet wire.\nApproximate number of inductor turns: L102 = 14, L103 = 23, L104 = 23, L105 = 19 \nMeasure inductances at 475kHz on a VNA or at least 100kHz on a LCR. Try to be within ±0.2uH.\nWhen tuning the inductors, make the coils closer together to increase inductance, or futher apart to decrease.\nL1 sees primarily DC current and is tolerant to variation in indcutance, hence it can be an SMD inductor."
 		(exclude_from_sim no)
 		(at 90.932 151.892 0)
 		(effects
@@ -9089,7 +9089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01210baa-a408-479c-87da-54b64fba4589")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 83.82 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,9 +9160,9 @@
 			(uuid "187c1ebb-38f4-4e5e-ba1f-740541f9d8f3")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9179,7 +9179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "061abb4a-4ab4-4aca-a567-5e700965962a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0140"
 			(at 259.08 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9237,9 +9237,9 @@
 			(uuid "67bd2346-9f42-4c15-ac46-69632022b43f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR032")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -9327,7 +9327,7 @@
 			(uuid "97222f92-6716-4810-ac4b-ada10f8501f6")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "H3")
 					(unit 1)
@@ -9347,7 +9347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06642ff2-5606-4ea6-b4cf-d8d2ff53c888")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0119"
 			(at 124.46 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9405,9 +9405,9 @@
 			(uuid "01dc1c2f-1e64-4b74-92cd-0c30628e06c0")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR017")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9424,7 +9424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06b4304d-8b86-4c93-a70a-589fe1e7518b")
-		(property "Reference" "TP10"
+		(property "Reference" "TP106"
 			(at 274.828 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9494,9 +9494,9 @@
 			(uuid "988a40bf-6c78-46a1-9aa4-e48d15ab16d3")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP10")
+					(reference "TP106")
 					(unit 1)
 				)
 			)
@@ -9513,7 +9513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06e4c98c-e5f3-43e9-a6cd-3f1213687f06")
-		(property "Reference" "TP8"
+		(property "Reference" "TP104"
 			(at 250.19 117.3479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9583,9 +9583,9 @@
 			(uuid "e2ab6c1b-781e-4c85-97fe-c647bb1d12c1")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP8")
+					(reference "TP104")
 					(unit 1)
 				)
 			)
@@ -9602,7 +9602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07efa79d-e18c-4c2b-8cab-f89256e2c600")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0142"
 			(at 260.35 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9660,9 +9660,9 @@
 			(uuid "9f364ccf-91c5-459e-b1ca-c2d1820072bb")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR031")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09d37a5a-7647-4f86-a5fc-3fcd45f48ae0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0110"
 			(at 71.12 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9737,9 +9737,9 @@
 			(uuid "8d4b7694-1682-4d4f-8ae1-f568734b5974")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR010")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -9757,7 +9757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7f15d9-79b2-4698-bf3b-ef62d9697228")
-		(property "Reference" "L4"
+		(property "Reference" "L104"
 			(at 218.44 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,9 +9828,9 @@
 			(uuid "3dbec591-0f70-4a1c-aa28-a0d563eb1208")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "L4")
+					(reference "L104")
 					(unit 1)
 				)
 			)
@@ -9921,7 +9921,7 @@
 			(uuid "02f54aa9-46c9-4772-9c1f-9fbe0bb6b3ed")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "C2")
 					(unit 1)
@@ -9940,7 +9940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12588415-715d-4dac-8b70-950efa668358")
-		(property "Reference" "C12"
+		(property "Reference" "C102"
 			(at 154.94 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10011,9 +10011,9 @@
 			(uuid "d0afad1a-e378-45a6-afcc-cf328649fd69")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C12")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "161aeba0-ddc1-4b7f-9599-22100243fb95")
-		(property "Reference" "C19"
+		(property "Reference" "C109"
 			(at 213.868 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,9 +10103,9 @@
 			(uuid "9759ec6c-9df2-4167-a879-68cce63df79d")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C19")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10199,7 @@
 			(uuid "0080d0ca-9ae5-407a-9139-198208b9482d")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U2")
 					(unit 1)
@@ -10218,7 +10218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "200fb41c-3b1a-4507-8eab-72f5b297f9e2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0128"
 			(at 186.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10276,9 +10276,9 @@
 			(uuid "8ce0e6b2-52f2-4366-9b72-01ff18e88054")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR025")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202a14e5-a70c-49d9-8b16-23e580d93246")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0101"
 			(at 19.05 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10354,9 +10354,9 @@
 			(uuid "595ee5cd-421c-4470-899f-71f20a49b9f3")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR01")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -10373,7 +10373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21162d88-8efd-45e6-9449-79a1ae4ca27a")
-		(property "Reference" "C14"
+		(property "Reference" "C104"
 			(at 154.94 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,9 +10444,9 @@
 			(uuid "4cea8259-8bfc-44ad-8627-56e6ec09e45f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C14")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -10463,7 +10463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f4dc80d-07ed-4fa5-93ce-88da1b7f3369")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0130"
 			(at 205.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10521,9 +10521,9 @@
 			(uuid "34fd5d54-36ec-4e2c-a6ba-f60378584f97")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR044")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10614,7 @@
 			(uuid "d6df8c3a-2bbd-48a3-af26-20f7f094fb4a")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "C9")
 					(unit 1)
@@ -10705,7 +10705,7 @@
 			(uuid "bf6e87c0-69f5-44b1-aa3c-0aa69266de4e")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "J1")
 					(unit 1)
@@ -10724,7 +10724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "384f24bc-9cad-4130-b8d2-97a7784682c1")
-		(property "Reference" "C18"
+		(property "Reference" "C108"
 			(at 198.12 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,9 +10797,9 @@
 			(uuid "1b08adf8-3315-4a93-a03c-f5d66dff388e")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C18")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -10817,7 +10817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39bcd8cb-962a-4421-a9b7-30923fcd074b")
-		(property "Reference" "C21"
+		(property "Reference" "C111"
 			(at 237.49 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10888,9 +10888,9 @@
 			(uuid "48772153-75ed-4126-87ed-d8f189859fbb")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C21")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -10907,7 +10907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a8ef3b1-523d-4625-b597-8f37fa506d1b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0105"
 			(at 44.45 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10965,9 +10965,9 @@
 			(uuid "22ef99c6-5d21-4187-97b9-119ab8775854")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR05")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11055,7 +11055,7 @@
 			(uuid "3e4b04d0-3724-437a-b63b-84f87786fafe")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "TP1")
 					(unit 1)
@@ -11145,7 +11145,7 @@
 			(uuid "6dc98a9b-f4ce-4834-96ff-767881d2cab1")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "H1")
 					(unit 1)
@@ -11164,7 +11164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "457276bd-58ca-45d0-b93d-a60b41876adc")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0126"
 			(at 173.99 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11222,9 +11222,9 @@
 			(uuid "cfe75c19-bbbd-4bcd-ba12-8858e576c9cd")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR023")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -11241,7 +11241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a28b70-38ae-448c-bb4f-7c3faabe3f28")
-		(property "Reference" "TP7"
+		(property "Reference" "TP103"
 			(at 137.16 117.3479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11311,9 +11311,9 @@
 			(uuid "669fd2ae-fb8b-4a0f-b256-63fe697d5706")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP7")
+					(reference "TP103")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48082131-2d0a-4c87-ab31-9917921ed484")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 211.328 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,9 +11403,9 @@
 			(uuid "51435419-9b91-4bd8-80dc-204bb12529b8")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C22")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11493,7 +11493,7 @@
 			(uuid "7c254d4a-9dd8-4173-858c-ec4f5d27dfb2")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "H4")
 					(unit 1)
@@ -11513,7 +11513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e5c8e25-7ced-4b80-8a8d-bb9a6e30a798")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0113"
 			(at 100.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11571,9 +11571,9 @@
 			(uuid "d6b2b063-7ada-4b08-8c12-fbabe21a12d4")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR013")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -11590,7 +11590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4faa6c20-ca94-42d4-aa72-88ee6c990f0b")
-		(property "Reference" "C24"
+		(property "Reference" "C11"
 			(at 222.758 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,9 +11663,9 @@
 			(uuid "8a1bc995-871a-4dd7-9b7e-2250cb93511c")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C24")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11682,7 +11682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531d7611-23eb-49fc-9e38-07ad17acbc7d")
-		(property "Reference" "J5"
+		(property "Reference" "J101"
 			(at 261.62 122.2131 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11755,9 +11755,9 @@
 			(uuid "fd01696f-0356-42eb-b1dd-89fef9f4b638")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "J5")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -11774,7 +11774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5613d0ea-3f7e-4e58-8ee2-0389f451181f")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 40.64 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11845,9 +11845,9 @@
 			(uuid "9ae660e5-5100-45c8-8503-149d109e39cb")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11864,7 +11864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "592f0086-7756-47b0-9ace-9737ba27c29d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0118"
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11922,9 +11922,9 @@
 			(uuid "154fa563-0c3f-48eb-a091-d5138502b314")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR020")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -11941,7 +11941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5999e344-bf68-41e9-9231-99f21066ea95")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 20.574 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,9 +12014,9 @@
 			(uuid "d156ec5c-cfcd-4d6d-acbf-fdc2f82fbbce")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12033,7 +12033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59abd3cf-3b09-44e3-ba49-7b265d561329")
-		(property "Reference" "C17"
+		(property "Reference" "C107"
 			(at 188.976 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,9 +12106,9 @@
 			(uuid "041d0cac-d2b3-4f0a-9bf8-a9db10bace74")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C17")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -12196,7 +12196,7 @@
 			(uuid "99001bb9-19fc-4de2-9c81-dcdc05842f61")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "H2")
 					(unit 1)
@@ -12216,7 +12216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60006bea-dbb4-4995-9067-0f7f1fd6948c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0111"
 			(at 83.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12274,9 +12274,9 @@
 			(uuid "9976ad83-1769-4727-bd9f-e3efcdb171de")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR011")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -12293,7 +12293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60bc9f48-688a-4e02-971a-5c51572716b0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0121"
 			(at 139.7 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12351,9 +12351,9 @@
 			(uuid "256be86d-e187-485c-b04f-bdb7eb3141b6")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR021")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -12442,7 +12442,7 @@
 			(uuid "7bf31e54-5f74-4748-b7e3-a98f4f2db8aa")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "R1")
 					(unit 1)
@@ -12462,7 +12462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6356c0c3-c7be-47d5-8558-006b1343798b")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 87.63 81.6609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,9 +12535,9 @@
 			(uuid "3cf14c7f-0ab6-49cc-90ff-0ca7cef4cbf0")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12555,7 +12555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f73aa1-0bd0-47cc-8d32-a83a3e158944")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 163.83 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12628,9 +12628,9 @@
 			(uuid "cfbf8bd0-120b-40fe-a284-124171ec0b37")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12649,7 +12649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ba5a75-4961-450f-a844-d624fba4f6c3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0112"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12707,9 +12707,9 @@
 			(uuid "49c07ec9-6d70-4d95-a3f5-a206c7c49a67")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR012")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -12726,7 +12726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aa57bbf-7fd0-491a-b251-18bb156f85fd")
-		(property "Reference" "C13"
+		(property "Reference" "C103"
 			(at 154.94 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12797,9 +12797,9 @@
 			(uuid "16941622-39ce-4a19-8804-21a7cebb223d")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C13")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -12816,7 +12816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ab131e7-c4a6-43d7-b252-5cb63b7ef2da")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0116"
 			(at 111.76 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12874,9 +12874,9 @@
 			(uuid "8ed97852-b63c-4fd4-8e97-ed395a278b0c")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR016")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12893,7 +12893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ca56dde-ceae-41ad-8a3b-f117667d1faf")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0135"
 			(at 219.71 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12951,9 +12951,9 @@
 			(uuid "8000f957-bce6-444e-a1da-3f3b1971785f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR043")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -13041,7 +13041,7 @@
 			(uuid "9485e79c-29cb-4178-80c9-c49c22610d20")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "TP2")
 					(unit 1)
@@ -13060,7 +13060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "722f47b3-0eea-41fc-bf73-a50a945295fe")
-		(property "Reference" "TP6"
+		(property "Reference" "TP102"
 			(at 112.776 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,9 +13130,9 @@
 			(uuid "38e7c79f-8f70-46d5-9c3b-09d340960bc9")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP6")
+					(reference "TP102")
 					(unit 1)
 				)
 			)
@@ -13150,7 +13150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "736d024b-0527-4fab-b33b-cf9df9c432f2")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 146.05 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13221,9 +13221,9 @@
 			(uuid "32e7f98a-e81f-4510-9730-aac05e5933c0")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13241,7 +13241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7707ac2a-b8ab-4510-9d64-771a8a5a4b42")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0114"
 			(at 100.33 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13299,9 +13299,9 @@
 			(uuid "2eff8c2d-5ada-4cc7-bd05-6b84be3f0de8")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR014")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13319,7 +13319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78144a06-7159-4aa2-a2f9-c518856c0e47")
-		(property "Reference" "L5"
+		(property "Reference" "L105"
 			(at 227.33 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13392,9 +13392,9 @@
 			(uuid "8cca0e30-d353-4c2c-8728-1f7f0f3b1eec")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "L5")
+					(reference "L105")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13488,7 @@
 			(uuid "8a8b62a5-0e24-4f6b-821c-bd7fec9d6522")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U1")
 					(unit 1)
@@ -13508,7 +13508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae41459-b228-4c24-b6dd-2db45d89dd70")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 52.07 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13581,9 +13581,9 @@
 			(uuid "a75326b2-d249-4567-841a-cd9dd0656542")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13672,7 +13672,7 @@
 			(uuid "a4f0e531-f9cd-426a-9617-50263a5ba988")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "D1")
 					(unit 1)
@@ -13691,7 +13691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83b402bc-675f-4a24-9f95-df60cbe12b47")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 110.49 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,9 +13767,9 @@
 			(uuid "5483e328-b834-4f47-973e-aa61a9234ad8")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13786,7 +13786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83cbf81c-f895-4a05-9416-3b6996dd9ec3")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 98.298 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13859,9 +13859,9 @@
 			(uuid "d25a8e30-0308-4d45-884d-f1eaa3f83ebc")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13879,7 +13879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842cdccd-2e31-40e6-b4e8-4b5e1726226e")
-		(property "Reference" "L2"
+		(property "Reference" "L102"
 			(at 171.45 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13950,9 +13950,9 @@
 			(uuid "35ed8609-746c-4487-b0f6-cb8f1a3c9b97")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "L2")
+					(reference "L102")
 					(unit 1)
 				)
 			)
@@ -13969,7 +13969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ab208a0-03f9-4961-bb24-990e233bdfd5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0143"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14027,9 +14027,9 @@
 			(uuid "14874529-6341-4733-80f1-0cad67f79238")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR034")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -14118,7 +14118,7 @@
 			(uuid "b205a3f1-59d2-4394-b50e-e48f15cb2065")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "JP1")
 					(unit 1)
@@ -14137,7 +14137,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8bbed817-cf1c-4243-8f61-fbac865af662")
-		(property "Reference" "R6"
+		(property "Reference" "R103"
 			(at 265.938 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14208,9 +14208,9 @@
 			(uuid "36feba0d-8b9d-41f6-95bd-4489fea8991b")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R6")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14297,7 @@
 			(uuid "9dda5d9f-7280-4070-a16b-80e79a45d4cd")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "TP3")
 					(unit 1)
@@ -14316,7 +14316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "905af661-a8c2-4eb8-a545-6e586a81b53b")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 22.606 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14389,9 +14389,9 @@
 			(uuid "ec987fee-64c4-417b-96eb-88751220fc1b")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14408,7 +14408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9297e307-8218-4cca-b945-d0d26586e0aa")
-		(property "Reference" "C15"
+		(property "Reference" "C105"
 			(at 154.94 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,9 +14479,9 @@
 			(uuid "24a0c458-e869-4dce-84f2-55a5e38fb73f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C15")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -14498,7 +14498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9379746f-9c24-4795-aae7-e1cedd3aec6f")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 110.49 34.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14574,9 +14574,9 @@
 			(uuid "9214c358-dd40-4d52-92c9-3caeadbdbbcf")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14594,7 +14594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0eb944-7243-43b2-b331-f8cce31a9e8a")
-		(property "Reference" "L3"
+		(property "Reference" "L103"
 			(at 199.39 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14665,9 +14665,9 @@
 			(uuid "b4481dba-1cc7-457e-abe3-bb68d07303fe")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "L3")
+					(reference "L103")
 					(unit 1)
 				)
 			)
@@ -14755,7 +14755,7 @@
 			(uuid "e304393a-4ebb-4593-a8a3-ac417516cd7f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "Y1")
 					(unit 1)
@@ -14774,7 +14774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ecd1d6a-a668-4b91-9ea5-34785b871345")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0117"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14832,9 +14832,9 @@
 			(uuid "8ed304c3-8a60-4ead-b796-5e6258eadd42")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR019")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -14925,7 +14925,7 @@
 			(uuid "f956d9ba-1dbd-4a86-8603-ec6e77fdbdac")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "C1")
 					(unit 1)
@@ -15015,7 +15015,7 @@
 			(uuid "87acfbe8-4173-45ec-873c-91b54b95025c")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "TP4")
 					(unit 1)
@@ -15034,7 +15034,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9fdf8b26-d8f0-4237-ac99-b443a9fd6c92")
-		(property "Reference" "R7"
+		(property "Reference" "R104"
 			(at 272.288 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15105,9 +15105,9 @@
 			(uuid "49185a0b-a283-4702-beaf-2a942e51f258")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R7")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -15124,7 +15124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a01ac983-acbf-4c4d-8e78-d35be00a387c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0108"
 			(at 59.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15182,9 +15182,9 @@
 			(uuid "2203f9ee-06bb-464d-8e1e-f8444992ff11")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR08")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -15201,7 +15201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1be4fef-26b3-4236-9ebc-c05d027ab5af")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0129"
 			(at 205.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15259,9 +15259,9 @@
 			(uuid "ff967ddf-9b31-460f-8e6e-9158da227b6a")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR035")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15361,7 +15361,7 @@
 			(uuid "7254a23b-e886-426f-81ec-de9d6c57aec8")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U4")
 					(unit 1)
@@ -15380,7 +15380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a58f5dec-e3bc-44d8-a350-b6220eae23ec")
-		(property "Reference" "TP5"
+		(property "Reference" "TP101"
 			(at 114.3 109.7279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15450,9 +15450,9 @@
 			(uuid "fd34f353-5231-4da0-a048-86a0aaa03619")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP5")
+					(reference "TP101")
 					(unit 1)
 				)
 			)
@@ -15470,7 +15470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f2fabd-d1a8-4aaa-8ded-a9a007181282")
-		(property "Reference" "C20"
+		(property "Reference" "C110"
 			(at 237.49 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15541,9 +15541,9 @@
 			(uuid "75a8bdf3-8db6-46ac-bd28-25b2ec4bc872")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C20")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -15561,7 +15561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c10509-1a06-4979-b852-1f67585491f9")
-		(property "Reference" "C11"
+		(property "Reference" "C101"
 			(at 143.51 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15634,9 +15634,9 @@
 			(uuid "d514ac8f-6fbf-4c9a-830c-91a6a9d602c2")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C11")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -15654,7 +15654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a915029d-abb8-4125-9176-ad18cbaa1f0e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0106"
 			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15712,9 +15712,9 @@
 			(uuid "08a39db1-9eed-4c30-b8a4-ca82743597d6")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR06")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a915b2ac-85e0-4cda-9b8b-f0516f0160cf")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0115"
 			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15790,9 +15790,9 @@
 			(uuid "b42b1fd2-7591-4de2-948b-71da31a6dee6")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR015")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15810,7 +15810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9dc7c90-5ce9-4d4f-827c-a415efe62111")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0103"
 			(at 24.13 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15868,9 +15868,9 @@
 			(uuid "be0f6070-b450-4407-8ce9-39c9eac742ce")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR03")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -15887,7 +15887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab26d67d-20e4-4c50-be7b-6da68e7d8ff6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0125"
 			(at 173.99 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15945,9 +15945,9 @@
 			(uuid "c072b645-2aad-4465-84e1-8be449c332c7")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR022")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -15964,7 +15964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad4e6d25-b0a4-42a9-a77b-ccd68d6cfa7a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0120"
 			(at 124.46 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16022,9 +16022,9 @@
 			(uuid "bb48a956-add4-4457-aaa9-6b431f0c2bb1")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR018")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -16041,7 +16041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b149f806-81b1-40ac-9a77-8aa6a59c1422")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0138"
 			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16099,9 +16099,9 @@
 			(uuid "5443e12b-fc34-4a09-a7f3-92426b6cf2bb")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR029")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -16118,7 +16118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b28386c1-188d-4068-8873-5208f1d4f8c6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0102"
 			(at 19.05 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16176,9 +16176,9 @@
 			(uuid "d2b848aa-1721-44c2-83a7-95f42f51655e")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR02")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -16196,7 +16196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b4a9ed-1c42-44db-9a62-254e1da5319f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0109"
 			(at 71.12 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16254,9 +16254,9 @@
 			(uuid "6f4609d3-0ecd-4c04-a713-6565014a58f8")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR09")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -16273,7 +16273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5ed7969-07b8-4abe-b0e2-3528a9840744")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 122.428 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16346,9 +16346,9 @@
 			(uuid "e5661d09-0302-4217-aed1-12911202b708")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -16365,7 +16365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5f09789-d167-4ecd-a98b-b8f72e09d652")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0123"
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16423,9 +16423,9 @@
 			(uuid "9915661c-3cb1-4428-8afa-db3b20387069")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR036")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16442,7 +16442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb397818-6f83-43e0-b903-1f46bd43c5e1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0137"
 			(at 223.52 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16500,9 +16500,9 @@
 			(uuid "aba14a45-2bf8-4540-a7b8-2467bd846e2b")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR028")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -16519,7 +16519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbdf2662-492c-4282-a334-eebf7b863f93")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0131"
 			(at 208.28 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16577,9 +16577,9 @@
 			(uuid "5d5a5d73-135f-4b2c-8d99-a0c62852f28f")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR038")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -16596,7 +16596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc31f4fb-5aa9-4f5a-ad87-77ffe00659fa")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0124"
 			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16654,9 +16654,9 @@
 			(uuid "074c4de6-5a21-4f89-8491-f5b0ec8f3a4e")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR024")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -16673,7 +16673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bee39fc7-27d3-47d2-9adc-18caefe8bff3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0132"
 			(at 208.28 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16731,9 +16731,9 @@
 			(uuid "2bf5bf7d-d4c2-4933-b551-98e19d890d37")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR039")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -16866,7 +16866,7 @@
 			(uuid "0249af41-2d5e-463c-b775-e16565b3697d")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U5")
 					(unit 1)
@@ -16885,7 +16885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf55dca6-9682-4210-be4c-dca23c970704")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0134"
 			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16943,9 +16943,9 @@
 			(uuid "3a86249c-e2f4-4904-a2ba-06306fd36ec6")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR042")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -17036,7 +17036,7 @@
 			(uuid "782759de-d8eb-4cfd-b0ff-ce8441b918fc")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "C8")
 					(unit 1)
@@ -17056,7 +17056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b78f0c-bbab-4e67-b385-9ce9b8114227")
-		(property "Reference" "L1"
+		(property "Reference" "L101"
 			(at 125.73 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17129,9 +17129,9 @@
 			(uuid "c666d248-bd45-4aff-8b00-364028fd2b26")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "L1")
+					(reference "L101")
 					(unit 1)
 				)
 			)
@@ -17148,7 +17148,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c5c30e8e-1f41-4e45-9cc2-941b47e38eb4")
-		(property "Reference" "R4"
+		(property "Reference" "R101"
 			(at 252.73 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17219,9 +17219,9 @@
 			(uuid "279dab86-9632-4aca-8ce9-6ce42586d6a9")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R4")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -17238,7 +17238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d08e19ca-9b75-4510-a709-62f08bc59540")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 261.62 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17308,9 +17308,9 @@
 			(uuid "c84a4eff-8467-49e0-95d3-411dce7323ba")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17327,7 +17327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d19a98cf-0f94-4723-b068-d031a54ff4a5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0133"
 			(at 210.82 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17385,9 +17385,9 @@
 			(uuid "369ee93a-a128-4bb5-af8e-4292d16cb165")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR026")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -17405,7 +17405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d533edb7-67c9-4b3a-9086-3454d2194e58")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0107"
 			(at 59.69 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -17463,9 +17463,9 @@
 			(uuid "5e39c659-be99-4268-9544-48ea5f17d5f1")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR07")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -17482,7 +17482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d629bce0-7a84-4e0a-aec3-dfb541553d16")
-		(property "Reference" "TP9"
+		(property "Reference" "TP105"
 			(at 261.62 104.6479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17552,9 +17552,9 @@
 			(uuid "dbca6f2c-d3b2-4083-9c22-90cb7cdc6f84")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "TP9")
+					(reference "TP105")
 					(unit 1)
 				)
 			)
@@ -17656,7 +17656,7 @@
 			(uuid "e3294176-b4bf-4394-ac63-c5e9fbf1cd17")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U6")
 					(unit 1)
@@ -17675,7 +17675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2bce3c0-1c5c-4766-8871-c388da0278ad")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 111.76 85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17748,9 +17748,9 @@
 			(uuid "c65852bb-d547-4717-a860-8b542b701931")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17838,7 +17838,7 @@
 			(uuid "8b5f2b2a-d428-4d00-b5e8-f9a10e58f7f5")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "SW1")
 					(unit 1)
@@ -17857,7 +17857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e608f3a5-4042-4725-b976-20cadbb0937a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0141"
 			(at 259.08 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17915,9 +17915,9 @@
 			(uuid "215ffdfc-f7b5-4485-adda-a5ae87ec87d2")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR033")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -18014,7 +18014,7 @@
 			(uuid "35d78cdd-e0f6-4ad4-bb20-079f062c41ba")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
 					(reference "U3")
 					(unit 1)
@@ -18033,7 +18033,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e77c1f55-2fb1-4070-887f-242fd5351088")
-		(property "Reference" "R5"
+		(property "Reference" "R102"
 			(at 257.81 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18104,9 +18104,9 @@
 			(uuid "e3702d20-edb6-4295-a8d2-8f8bb3490822")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "R5")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -18123,7 +18123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e87ef8a2-df7a-4b3e-b4de-3607efd51233")
-		(property "Reference" "Q1"
+		(property "Reference" "Q101"
 			(at 127.254 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18202,9 +18202,9 @@
 			(uuid "d4999259-2a1d-428b-9837-f78fd7480ea4")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "Q1")
+					(reference "Q101")
 					(unit 1)
 				)
 			)
@@ -18221,7 +18221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9689161-76bd-4586-bde8-6ce253d100f3")
-		(property "Reference" "C16"
+		(property "Reference" "C106"
 			(at 180.086 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18294,9 +18294,9 @@
 			(uuid "4776b041-f31a-4415-b6b3-a3d1d03c012a")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "C16")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -18313,7 +18313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f243ac35-ee10-4e8c-aab3-68412f4afa0b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0127"
 			(at 181.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18371,9 +18371,9 @@
 			(uuid "aeac4cdf-9c76-433e-a877-af8ea07abc9c")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR045")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -18390,7 +18390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f453e2a8-c5f6-4e8f-a3e4-82236f786fd2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0104"
 			(at 24.13 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18448,9 +18448,9 @@
 			(uuid "851ec730-eb90-4d21-928f-208297fdd17c")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR04")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -18467,7 +18467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9ba9e97-f69f-4a7a-b21e-cad74ee676b1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0122"
 			(at 142.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18525,9 +18525,9 @@
 			(uuid "e05bf09e-bafa-4013-898a-d26094cab95e")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR037")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -18544,7 +18544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc8ce269-f344-45cd-b893-757d01be7aab")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0136"
 			(at 223.52 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -18602,9 +18602,9 @@
 			(uuid "555e81e0-97a6-476d-a3c1-06574baa114a")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR027")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -18621,7 +18621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff30d00a-0fd3-4e6a-a245-d765c6673ad1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0139"
 			(at 248.92 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18679,9 +18679,9 @@
 			(uuid "cbc7ee6f-bc7f-442a-b1d3-4d1d9a4700d0")
 		)
 		(instances
-			(project "RTSS_Power_Supply_V2-5B"
+			(project "RTSS_Power_Supply_V2-5C"
 				(path "/1f69db86-523f-4c60-8db0-79dc974802b3"
-					(reference "#PWR030")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)

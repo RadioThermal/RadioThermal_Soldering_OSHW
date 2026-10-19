@@ -10,13 +10,15 @@ The provided PCB design includes all basic functionality needed to operate a 470
 
 The design includes provisions for inrush current limiting, reverse polarity protection, a cooling fan, and two different types of oscillators. The inductors, apart from the fixed 33uH inductor, are all based around the [Kool Mu 0077932A7 core](https://www.mag-inc.com/Media/Magnetics/Datasheets/0077932A7.pdf), which is currently only available from Digikey, though we are looking for alternatives. 
 
-In version 2.5B of the PCB, we have made a few improvements to reduce cost and increase reliability compared with version 2.3B1. Most notably the oscillator section has been redesigned to eliminate the need for a microcontroller and now only relies on a 7.6MHz crystal oscillator and TTL logic. To reduce costs, we have eliminated the daughter board by moving everything onto the main board, additionally L2 has been updated to only use a single inductor core from the two cores required on previous versions. Moving all of this new hardware onto the main board has had the consequence of causing us to remove the TO-247 MOSFET option in favor of TO-220 to save space.
+In version 2.5B of the PCB, we have made a few improvements to reduce cost and increase reliability compared with version 2.3B1. Most notably the oscillator section has been redesigned to eliminate the need for a microcontroller and now only relies on a 7.6MHz crystal oscillator and TTL logic. To reduce costs, we have eliminated the daughter board by moving everything onto the main board, additionally L2 has been updated to only use a single inductor core from the two cores required on previous versions. Moving all of this new hardware onto the main board has had the consequence of causing us to remove the TO-247 MOSFET option in favor of TO-220 to save space. 
 
-![](./PCB/Renders/pcb_v2-5_schematic.svg)
+In the version 2.5C release, the reference designators have been updated on most components to better reflect their placement within the design.
 
-Components required to assemble the board can be found in the [Digikey list we maintain](https://www.digikey.com/en/mylists/list/PVYU6ZC8DQ) , please let us know if there is a stocking issue for a component so that we can find a suitable alternative.
+![](./PCB/Renders/RTSS_Power_Supply_V2-5C_schematic.svg)
 
-**Special note:** if you are one of the few people with a **V2.5** non-B PCB, please replace the 74LVC1G14 with a [74LVC2G14](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74LVC2G14GW-125/1231583)
+Components required to assemble the board can be found in the [Digikey list we maintain](https://www.digikey.com/en/mylists/list/9TG6QR7M1O) , please let us know if there is a stocking issue for a component so that we can find a suitable alternative.
+
+**Special note:** if you are one of the few people with a **V2.5** non-B PCB, please replace the 74LVC1G14 with a [74LVC2G14](https://www.digikey.com/en/products/detail/evvo/SN74LVC2G14DBVR-EV/22674516) and ensure the [74LVC1GU04](https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1GU04DBVR/377459) is a SOT23-5 package
 
 #### External DC Power Supplies
 
@@ -30,6 +32,6 @@ The case design adds additional functionality to the PCB including a barrel jack
 
 ![case](./media/Case-Back.jpg)
 
-The electronics parts and fasteners for the case [can be purchased from Digikey](https://www.digikey.com/en/mylists/list/RQ7FUDUM3L). 
+The electronics parts and fasteners for the case [can be purchased from Digikey](https://www.digikey.com/en/mylists/list/JW0L0CD7FY). 
 
 The case fan mounts are only designed to support Delta AFB0712 series fans at present, other 70mm fans can be used by removing the fan mounting posts and gluing the four corners of the fan in place. 

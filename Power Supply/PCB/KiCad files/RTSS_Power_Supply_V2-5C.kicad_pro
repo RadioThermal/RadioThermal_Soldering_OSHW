@@ -62,6 +62,22 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|146932500|114045000|662f47a6-8278-455d-875e-562479943102|cd6c65a5-9bdf-4ad8-a2c4-507b5ff705a5",
+          ""
+        ],
+        [
+          "clearance|147432500|114045000|459c4549-795f-484b-898a-613a78a684cf|662f47a6-8278-455d-875e-562479943102",
+          ""
+        ],
+        [
+          "clearance|151987500|115950000|a92262e2-0c87-4c73-89e1-5b4e3e99417f|b5f2a5bf-dad4-42c8-ba86-63b2de4c88c7",
+          ""
+        ],
+        [
+          "clearance|152487500|115950000|b5f2a5bf-dad4-42c8-ba86-63b2de4c88c7|e5a20162-257a-4f25-b338-0d4bb852dcf5",
+          ""
+        ],
+        [
           "clearance|96660000|96550500|3d2c25f8-d3ee-4879-8d66-04419a129fb0|4e720e8c-f2c4-4e5a-978c-2ebe899ba996",
           "Intentional"
         ],
@@ -286,19 +302,7 @@
           "Intentional"
         ],
         [
-          "unconnected_items|98287000|101527000|F.Cu|4|2d634129-1d6c-464f-b727-0caf5a9b1733|9ed4e07c-419d-428e-a5e3-9ff245e6128d",
-          "Intentional"
-        ],
-        [
-          "unconnected_items|98287000|109149000|F.Cu|4|348a035d-f7da-42c8-999d-576f7c434326|25e3773b-ea14-4859-8e50-204882ebd97d",
-          "Intentional"
-        ],
-        [
           "unconnected_items|99787000|112413000|F.Cu|4|c8f22678-c2c8-4e92-a57f-8ce99126d40b|4e8df4e6-080e-455f-85ce-2fe540f652a0",
-          "Intentional"
-        ],
-        [
-          "unconnected_items|99787000|97156100|F.Cu|4|bf2477c5-e178-477d-b5b2-c7c17e4fa617|4d3a1623-c90b-4276-bf39-863b6d7f5740",
           "Intentional"
         ]
       ],
@@ -485,7 +489,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2.5B"
+      "sch_revision": "2.5C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -734,7 +738,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RTSS_Power_Supply_V2-5B.kicad_pro",
+    "filename": "RTSS_Power_Supply_V2-5C.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -771,7 +775,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber3/",
+      "plot": "RTSS-PS2_5C-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -781,7 +785,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -919,8 +923,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "RTSS_Power_Supply_V2-5B.kicad_sch",
-        "name": "RTSS_Power_Supply_V2-5B",
+        "filename": "RTSS_Power_Supply_V2-5C.kicad_sch",
+        "name": "RTSS_Power_Supply_V2-5C",
         "uuid": "1f69db86-523f-4c60-8db0-79dc974802b3"
       }
     ],
@@ -930,7 +934,7 @@
   "sheets": [
     [
       "1f69db86-523f-4c60-8db0-79dc974802b3",
-      "RTSS_Power_Supply_V2-5B"
+      "RTSS_Power_Supply_V2-5C"
     ]
   ],
   "text_variables": {},
